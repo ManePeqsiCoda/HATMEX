@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root, [data-theme="hatmex"] {
+  /* Backgrounds — warm cream, like aged natural linen */
+  --bg-primary:    #F5F0E8;
+  --bg-secondary:  #EDE8DF;
+  --bg-surface:    #E4DED3;
+  --bg-card:       #FAF8F4;
+
+  /* Text — dark forest green, not black */
+  --text-primary:  #1A2E1C;
+  --text-secondary:#5A6B5E;
+  --text-muted:    #8A9E94;
+
+  /* Accent — warm gold */
+  --accent:        #C9A84C;
+  --accent-hover:  #B8962F;
+  --accent-light:  rgba(201,168,76,0.12);
+
+  /* Borders */
+  --border:        #D6D0C4;
+  --border-light:  #E2DDD5;
+
+  /* Nav & overlays */
+  --nav-bg:        rgba(245,240,232,0.97);
+  --hero-overlay:  rgba(26,46,28,0.45);
+
+  /* Form inputs */
+  --input-bg:      #EDEAE3;
+
+  /* Badge */
+  --badge-bg:      rgba(201,168,76,0.12);
+  --badge-border:  rgba(201,168,76,0.30);
+
+  /* Sidebar / UI Kit variable */
+  --doc-accent:    #C9A84C;
+}
+
+/* ─── BASE STYLES ────────────────────────────────────────────────────────── */
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--font-body), 'Barlow', sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  p {
+    max-width: 620px;
+    color: var(--text-secondary);
+  }
+}
+
+/* ─── TYPOGRAPHY UTILITIES ───────────────────────────────────────────────── */
+@layer utilities {
+  .hero-title {
+    font-family: var(--font-display), 'Barlow Condensed', sans-serif;
+    font-size: clamp(56px, 7vw, 88px);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1.1;
+  }
+
+  .section-title {
+    font-family: var(--font-display), 'Barlow Condensed', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--text-primary);
+    line-height: 1.2;
+  }
+
+  .eyebrow {
+    font-family: var(--font-display), 'Barlow Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  
+  .font-display {
+    font-family: var(--font-display), 'Barlow Condensed', sans-serif;
+  }
+}
+
+/* ─── COMPONENT TOKENS ───────────────────────────────────────────────────── */
+@layer components {
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent);
+    color: var(--text-primary);
+    font-family: var(--font-display), 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .btn-primary:hover {
+    background-color: var(--accent-hover);
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center;
+    background-color: transparent;
+    border: 1.5px solid var(--text-primary);
+    color: var(--text-primary);
+    font-family: var(--font-display), 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .btn-outline:hover {
+    background-color: var(--text-primary);
+    color: var(--bg-primary);
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center;
+    background-color: transparent;
+    color: var(--accent);
+    font-family: var(--font-display), 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.10em;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .btn-ghost:hover {
+    text-decoration: underline;
+  }
+
+  .card-default {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+  .card-default:hover {
+    border-color: var(--accent);
+    box-shadow: 0 4px 24px rgba(26, 46, 28, 0.08);
+  }
+}
+
+/* ─── SCROLLBAR ──────────────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-light);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* Utility: hide scrollbar while keeping scroll functionality */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

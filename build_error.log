@@ -1,0 +1,294 @@
+﻿
+> hatmex-web@0.1.0 build
+> next build
+
+  Ôû▓ Next.js 14.2.3
+
+   Creating an optimized production build ...
+ Ô£ô Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/13) ...
+node.exe : 
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (:String) [],    
+ RemoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+The `locale` parameter 
+in `getRequestConfig` 
+is deprecated, please 
+switch to `await 
+requestLocale`. See htt
+ps://next-intl.dev/blog
+/next-intl-3-22#await-r
+equest-locale
+
+
+A `locale` is expected 
+to be returned from 
+`getRequestConfig`, 
+but none was returned. 
+This will be an error 
+in the next major 
+version of next-intl.
+
+See: https://next-intl.
+dev/blog/next-intl-3-22
+#await-request-locale
+
+
+The `locale` parameter 
+in `getRequestConfig` 
+is deprecated, please 
+switch to `await 
+requestLocale`. See htt
+ps://next-intl.dev/blog
+/next-intl-3-22#await-r
+equest-locale
+
+
+A `locale` is expected 
+to be returned from 
+`getRequestConfig`, 
+but none was returned. 
+This will be an error 
+in the next major 
+version of next-intl.
+
+See: https://next-intl.
+dev/blog/next-intl-3-22
+#await-request-locale
+
+
+The `locale` parameter 
+in `getRequestConfig` 
+is deprecated, please 
+switch to `await 
+requestLocale`. See htt
+ps://next-intl.dev/blog
+/next-intl-3-22#await-r
+equest-locale
+
+
+A `locale` is expected 
+to be returned from 
+`getRequestConfig`, 
+but none was returned. 
+This will be an error 
+in the next major 
+version of next-intl.
+
+See: https://next-intl.
+dev/blog/next-intl-3-22
+#await-request-locale
+
+
+The `locale` parameter 
+in `getRequestConfig` 
+is deprecated, please 
+switch to `await 
+requestLocale`. See htt
+ps://next-intl.dev/blog
+/next-intl-3-22#await-r
+equest-locale
+
+
+A `locale` is expected 
+to be returned from 
+`getRequestConfig`, 
+but none was returned. 
+This will be an error 
+in the next major 
+version of next-intl.
+
+See: https://next-intl.
+dev/blog/next-intl-3-22
+#await-request-locale
+
+
+The `locale` parameter 
+in `getRequestConfig` 
+is deprecated, please 
+switch to `await 
+requestLocale`. See htt
+ps://next-intl.dev/blog
+/next-intl-3-22#await-r
+equest-locale
+
+
+A `locale` is expected 
+to be returned from 
+`getRequestConfig`, 
+but none was returned. 
+This will be an error 
+in the next major 
+version of next-intl.
+
+See: https://next-intl.
+dev/blog/next-intl-3-22
+#await-request-locale
+
+
+The `locale` parameter 
+in `getRequestConfig` 
+is deprecated, please 
+switch to `await 
+requestLocale`. See htt
+ps://next-intl.dev/blog
+/next-intl-3-22#await-r
+equest-locale
+
+
+A `locale` is expected 
+to be returned from 
+`getRequestConfig`, 
+but none was returned. 
+This will be an error 
+in the next major 
+version of next-intl.
+
+See: https://next-intl.
+dev/blog/next-intl-3-22
+#await-request-locale
+
+   Generating static pages (3/13) 
+   Generating static pages (6/13) 
+
+The `locale` parameter 
+in `getRequestConfig` 
+is deprecated, please 
+switch to `await 
+requestLocale`. See htt
+ps://next-intl.dev/blog
+/next-intl-3-22#await-r
+equest-locale
+
+
+A `locale` is expected 
+to be returned from 
+`getRequestConfig`, 
+but none was returned. 
+This will be an error 
+in the next major 
+version of next-intl.
+
+See: https://next-intl.
+dev/blog/next-intl-3-22
+#await-request-locale
+
+
+The `locale` parameter 
+in `getRequestConfig` 
+is deprecated, please 
+switch to `await 
+requestLocale`. See htt
+ps://next-intl.dev/blog
+/next-intl-3-22#await-r
+equest-locale
+
+
+A `locale` is expected 
+to be returned from 
+`getRequestConfig`, 
+but none was returned. 
+This will be an error 
+in the next major 
+version of next-intl.
+
+See: https://next-intl.
+dev/blog/next-intl-3-22
+#await-request-locale
+
+
+The `locale` parameter 
+in `getRequestConfig` 
+is deprecated, please 
+switch to `await 
+requestLocale`. See htt
+ps://next-intl.dev/blog
+/next-intl-3-22#await-r
+equest-locale
+
+
+A `locale` is expected 
+to be returned from 
+`getRequestConfig`, 
+but none was returned. 
+This will be an error 
+in the next major 
+version of next-intl.
+
+See: https://next-intl.
+dev/blog/next-intl-3-22
+#await-request-locale
+
+
+The `locale` parameter 
+in `getRequestConfig` 
+is deprecated, please 
+switch to `await 
+requestLocale`. See htt
+ps://next-intl.dev/blog
+/next-intl-3-22#await-r
+equest-locale
+
+
+A `locale` is expected 
+to be returned from 
+`getRequestConfig`, 
+but none was returned. 
+This will be an error 
+in the next major 
+version of next-intl.
+
+See: https://next-intl.
+dev/blog/next-intl-3-22
+#await-request-locale
+
+   Generating static pages (9/13) 
+ Ô£ô Generating static pages (13/13)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+Ôöî Ôùï /_not-found                          871 B            88 kB
+Ôö£ ÔùÅ /[locale]                            155 B          87.3 kB
+Ôö£   Ôö£ /en
+Ôö£   Ôöö /es
+Ôö£ ÔùÅ /[locale]/about                      155 B          87.3 kB
+Ôö£   Ôö£ /en/about
+Ôö£   Ôöö /es/about
+Ôö£ ÔùÅ /[locale]/contact                    155 B          87.3 kB
+Ôö£   Ôö£ /en/contact
+Ôö£   Ôöö /es/contact
+Ôö£ ÔùÅ /[locale]/gallery                    155 B          87.3 kB
+Ôö£   Ôö£ /en/gallery
+Ôö£   Ôöö /es/gallery
+Ôöö ÔùÅ /[locale]/processes                  155 B          87.3 kB
+    Ôö£ /en/processes
+    Ôöö /es/processes
++ First Load JS shared by all            87.1 kB
+  Ôö£ chunks/23-509d2c9a3fbd8547.js        31.5 kB
+  Ôö£ chunks/fd9d1056-00bb33a35b5f8051.js  53.6 kB
+  Ôöö other shared chunks (total)          2.02 kB
+
+
+ãÆ Middleware                             43.9 kB
+
+Ôùï  (Static)  prerendered as static content
+ÔùÅ  (SSG)     prerendered as static HTML (uses getStaticProps)
+

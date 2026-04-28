@@ -1,0 +1,443 @@
+[
+  {
+    "sku": "W8E01-10",
+    "nombre": "BANGORA 6 RANDAS",
+    "material": "BANGORA 6 RANDAS",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W16C01-10",
+    "nombre": "BANGORA CHINO GLAZ ROMBOS",
+    "material": "BANGORA CHINO GLAZ ROMBOS",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W10A01-10",
+    "nombre": "BANGORA FINO - 6 X 5.5 X 5.5",
+    "material": "BANGORA FINO - 6 X 5.5 X 5.5",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W23801-10",
+    "nombre": "BANGORA IVORY Y CAFÉ",
+    "material": "BANGORA IVORY Y CAFÉ",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W14E01-10",
+    "nombre": "BANGORA RANDA PUNTOS",
+    "material": "BANGORA RANDA PUNTOS",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W14A01-10",
+    "nombre": "BANGORA TAN FLECHAS",
+    "material": "CHINO GLAZ IVORY 5BU 2X2",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W3401-10",
+    "nombre": "BANGORA ZIGZAG",
+    "material": "CHINO GLAZ G3 2X2",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W4201-10",
+    "nombre": "JAP G2 1X1",
+    "material": "JAP G2 1X1",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W4401-10",
+    "nombre": "JAP G2 2X2",
+    "material": "JAP G2 2X2",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W4901-10",
+    "nombre": "JAP G3 2X2",
+    "material": "JAP G3 2X2",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W5001-10",
+    "nombre": "JAP G3 2X2 RANDADO",
+    "material": "JAP G3 2X2 RANDADO",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W5901-10",
+    "nombre": "JAP G5 2X2  6X5X6",
+    "material": "JAP G5 2X2  6X5X6",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W7501-10",
+    "nombre": "JAP G5 2X2 RAN TT",
+    "material": "JAP G5 2X2 RAN TT",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W33901-10",
+    "nombre": "JAP G5 2X2 RANDA PUNTOS",
+    "material": "JAP G5 2X2 RANDA PUNTOS",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W172C01-10",
+    "nombre": "JAP G5 2X2 TRIPLE RANDA",
+    "material": "JAP G5 2X2 TRIPLE RANDA",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W16101-10",
+    "nombre": "JAP G5 2X2 RANDA LÍNEA Y ROMBOS",
+    "material": "JAP G5 2X2 RANDA LÍNEA Y ROMBOS",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W9901-10",
+    "nombre": "JAP G5 2X2 WILDFIRE",
+    "material": "JAP G5 2X2 WILDFIRE",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W17501-10",
+    "nombre": "JAP G5 3X3 PAPER VENT",
+    "material": "JAP G5 3X3 PAPER VENT",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W153A01-10",
+    "nombre": "TELAR 2BU 1X1 G14 BLANCO",
+    "material": "TELAR 2BU 1X1 G14 BLANCO",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W131A01-10",
+    "nombre": "SISOL 3X3",
+    "material": "SISOL 3X3",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W11201-10",
+    "nombre": "LANA CHOCO 210 GR",
+    "material": "LANA NATURAL 210 GR",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "W12101-10.5",
+    "nombre": "CASHMERE GRIS 220 GR",
+    "material": "CASHMERE SILVER BELLY  220 GR",
+    "horma": "HORMA DOBLE S",
+    "falda": "FALDA 10.5 CM"
+  },
+  {
+    "sku": "W10A03-11",
+    "nombre": "BANGORA FINO - 6 X 5.5 X 5.5",
+    "material": "BANGORA FINO - 6 X 5.5 X 5.5",
+    "horma": "HORMA RESISTOL",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "D8D03-11",
+    "nombre": "BANGORA DOBLE RANDA TT",
+    "material": "BANGORA DOBLE RANDA TT",
+    "horma": "HORMA RESISTOL",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W14C03-11",
+    "nombre": "BANGORA 2 RANDAS IVORY",
+    "material": "BANGORA 2 RANDAS IVORY",
+    "horma": "HORMA RESISTOL",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W603-11",
+    "nombre": "BANGORA CAFÉ 6X5X5.5",
+    "material": "BANGORA CAFÉ 6X5X5.5",
+    "horma": "HORMA RESISTOL",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W8D03-11",
+    "nombre": "BANGORA PANAL ANCHO",
+    "material": "BANGORA PANAL ANCHO",
+    "horma": "HORMA RESISTOL",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "WN14A03-11",
+    "nombre": "BANGORA RANDA TT TAN",
+    "material": "BANGORA TAN FLECHAS",
+    "horma": "HORMA RESISTOL",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W3403-11",
+    "nombre": "BANGORA TAN FLECHAS",
+    "material": "CHINO GLAZ G3 2X2",
+    "horma": "HORMA RESISTOL",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W18903-11",
+    "nombre": "CHINO GLAZ IVORY 5BU 2X2",
+    "material": "CHINO GLAZ IVORY 5BU 2X2",
+    "horma": "HORMA RESISTOL",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W6903-11",
+    "nombre": "CHINO GLAZ G3 2X2 TT",
+    "material": "JAP G5 2X2  6X5X6",
+    "horma": "HORMA RESISTOL",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W13603-11",
+    "nombre": "JAP G5 2X2 RANDA PANAL",
+    "material": "JAP G5 2X2 RANDA PANAL",
+    "horma": "HORMA RESISTOL",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W16303-11",
+    "nombre": "JAP G5 2X2 RANDA X",
+    "material": "JAP G5 2X2 RANDA X",
+    "horma": "HORMA RESISTOL",
+    "falda": "FALDA 11  CM"
+  },
+  {
+    "sku": "W17503-11",
+    "nombre": "JAP G5 3X3 PAPER VENT",
+    "material": "JAP G5 3X3 PAPER VENT",
+    "horma": "HORMA RESISTOL",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W131A03-11",
+    "nombre": "SISOL 3X3",
+    "material": "SISOL 3X3",
+    "horma": "HORMA RESISTOL",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W13203-11",
+    "nombre": "JAP G5 2X2 RAN TT",
+    "material": "JAP G5 2X2 RAN TT",
+    "horma": "HORMA RESISTOL",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "D11203-11",
+    "nombre": "LANA NEGRA 210 GR",
+    "material": "LANA NEGRA 210 GR",
+    "horma": "HORMA RESISTOL",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W11202-11",
+    "nombre": "LANA CHOCO 210 GR",
+    "material": "LANA CHOCO 210 GR",
+    "horma": "HORMA RESISTOL",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W11203-11",
+    "nombre": "LANA NEGRA  210 GR",
+    "material": "LANA NEGRA  210 GR",
+    "horma": "HORMA RESISTOL",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "WV23509-11",
+    "nombre": "CHINO G5 2X2 RANDA ZIGZAG",
+    "material": "CHINO GLAZ 5BU 2X2",
+    "horma": "HORMA DOBLE S USA",
+    "falda": "FALDA 11  CM"
+  },
+  {
+    "sku": "W7509-10",
+    "nombre": "JAP G5 2X2 RAN TT",
+    "material": "JAP G5 2X2 RAN TT",
+    "horma": "HORMA DOBLE S USA",
+    "falda": "FALDA 10 CM"
+  },
+  {
+    "sku": "WV74A09-11",
+    "nombre": "JAP G5 2X2 RANDA",
+    "material": "JAP G5 2X2 RANDA",
+    "horma": "HORMA DOBLE S USA",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "WV7309-11",
+    "nombre": "JAP G5 2X2 RANDA IVORY",
+    "material": "JAP G5 2X2 RANDA IVORY",
+    "horma": "HORMA DOBLE S USA",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "WV9409-11",
+    "nombre": "JAP G5 2X2 RANDA PUNTOS",
+    "material": "JAP G5 2X2 TT SS",
+    "horma": "HORMA DOBLE S USA",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "WV9109-11",
+    "nombre": "JAP G5 2X2 TT OXIDO",
+    "material": "JAP G5 2X2 TT OXIDO",
+    "horma": "HORMA DOBLE S USA",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "WV16009-11",
+    "nombre": "JAP G5 2X2 TT RANDA ROMBOS",
+    "material": "JAP G5 2X2 TT RANDA ROMBOS",
+    "horma": "HORMA DOBLE S USA",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W11609-11",
+    "nombre": "PALMA VERDE",
+    "material": "PALMA VERDE",
+    "horma": "HORMA DOBLE S USA",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W14C02-11",
+    "nombre": "BANGORA 2 RANDAS IVORY",
+    "material": "BANGORA 2 RANDAS IVORY",
+    "horma": "HORMA RODEO 2",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W0702-11",
+    "nombre": "BANGORA DOBLE RANDA TT CHOCO",
+    "material": "BANGORA DOBLE RANDA TT CHOCO",
+    "horma": "HORMA DOBLE S USA",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W602-11",
+    "nombre": "W0702BP-11",
+    "material": "BANGORA 2 RANDAS IVORY",
+    "horma": "HORMA RODEO 2",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W10C02-11",
+    "nombre": "BANGORA FINO - 6 X 5.5 X 6",
+    "material": "BANGORA FINO - 6 X 5.5 X 6",
+    "horma": "HORMA RODEO 2",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W1202-11",
+    "nombre": "BANGORA RANDA TT/SOMBRA",
+    "material": "BANGORA RANDA TT/SOMBRA",
+    "horma": "HORMA RODEO 2",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W6902-11",
+    "nombre": "BANGORA TAN FLECHAS",
+    "material": "BANGORA TAN FLECHAS",
+    "horma": "HORMA RODEO 2",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W131A02-11",
+    "nombre": "CHINO GLAZ G3 2X2",
+    "material": "SISOL 3X3",
+    "horma": "HORMA RODEO 2",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W23617-11",
+    "nombre": "CHINO GLAZ 5BU 2X2",
+    "material": "CHINO GLAZ 5BU 2X2",
+    "horma": "HORMA OPEN",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W16317-11",
+    "nombre": "JAP G5 2X2 RANDA X",
+    "material": "JAP G5 2X2 RANDA X",
+    "horma": "HORMA OPEN",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W9817-11",
+    "nombre": "JAP G5 2X2 RANDA ROMBOS",
+    "material": "JAP G5 2X2 RANDA ROMBOS",
+    "horma": "HORMA OPEN",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W10917-11",
+    "nombre": "LANA CHOCO 210 GR",
+    "material": "LANA CHOCO 210 GR",
+    "horma": "HORMA OPEN",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "W11217-11",
+    "nombre": "LANA NEGRA 210 GR",
+    "material": "LANA NEGRA 210 GR",
+    "horma": "HORMA OPEN",
+    "falda": "FALDA 11 CM"
+  },
+  {
+    "sku": "WK113B43-9",
+    "nombre": "LANA NEGRA 160 GR CRUSHABLE NIÑO",
+    "material": "LANA CHOCO 210 GR",
+    "horma": "HORMA MAVERICK KIDS",
+    "falda": "FALDA 9 CM"
+  },
+  {
+    "sku": "W4912-9",
+    "nombre": "JAP G3 2X2",
+    "material": "JAP G3 2X2",
+    "horma": "HORMA LARRY",
+    "falda": "FALDA 9 CM"
+  },
+  {
+    "sku": "W5959-9",
+    "nombre": "JAP G5 2X2  6X5X6",
+    "material": "JAP G5 2X2  6X5X6",
+    "horma": "HORMA FANTASMA",
+    "falda": "FALDA 9 CM"
+  },
+  {
+    "sku": "W11259-9",
+    "nombre": "LANA NEGRA 210 GR",
+    "material": "LANA NEGRA 210 GR",
+    "horma": "HORMA FANTASMA",
+    "falda": "FALDA 9 CM"
+  }
+]
