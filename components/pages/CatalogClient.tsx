@@ -7,12 +7,20 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from '@/lib/navigation';
 import productos from '@/public/Catalogo/productos.json';
 
+type Variante = {
+  sku: string;
+  label: string;
+  imagen: string;
+};
+
 type Producto = {
   sku: string;
   nombre: string;
   material: string;
   horma: string;
   falda: string;
+  imagen?: string;
+  variantes?: Variante[];
 };
 
 function getCategoria(nombre: string): string {
@@ -31,7 +39,10 @@ function getCategoria(nombre: string): string {
 function ProductCard({ product }: { product: Producto }) {
   const t = useTranslations('catalog');
   const [imgError, setImgError] = useState(false);
+  const [activeImagen, setActiveImagen] = useState(product.imagen || `/catalogo/${product.sku}.webp`);
   const categoria = getCategoria(product.nombre);
+
+  const hasVariants = product.variantes && product.variantes.length > 0;
 
   return (
     <motion.div
@@ -45,7 +56,7 @@ function ProductCard({ product }: { product: Producto }) {
       <div className="relative aspect-[4/5] w-full overflow-hidden bg-[var(--bg-surface)]">
         {!imgError && (
           <Image
-            src={`/catalogo/${product.sku}.webp`}
+            src={activeImagen}
             alt={`${product.nombre} — ${product.sku}`}
             fill
             loading="lazy"
@@ -69,7 +80,33 @@ function ProductCard({ product }: { product: Producto }) {
         </div>
       </div>
 
-      <div className="p-5 md:p-8">
+      {/* Variant thumbnails */}
+      {hasVariants && (
+        <div className="px-5 pt-3 pb-0 flex gap-2">
+          {product.variantes?.map((v) => (
+            <button
+              key={v.sku}
+              onClick={() => { setActiveImagen(v.imagen); setImgError(false); }}
+              className={`relative w-10 h-10 border overflow-hidden rounded-[2px] transition-all ${
+                activeImagen === v.imagen
+                  ? 'border-[var(--accent)] ring-1 ring-[var(--accent)]'
+                  : 'border-[var(--border)] opacity-70 hover:opacity-100'
+              }`}
+              title={v.label}
+            >
+              <Image
+                src={v.imagen}
+                alt={v.label}
+                fill
+                className="object-cover"
+                loading="lazy"
+              />
+            </button>
+          ))}
+        </div>
+      )}
+
+      <div className={`p-5 md:p-8 ${hasVariants ? 'pt-3' : ''}`}>
         <span className="block font-display font-bold text-[9px] tracking-[0.18em] uppercase text-[var(--text-muted)] mb-1.5">
           {categoria}
         </span>
