@@ -21,6 +21,17 @@
     "customers_heading": "Some of Our Customers",
     "team_heading": "Team of Experts",
     "team_desc": "We are proud of our teams and specialists who make every project possible through technical excellence.",
+    "processsteps_eyebrow": "How We Work",
+    "process_step_1_title": "Discovery & Design",
+    "process_step_1_desc": "Your vision, our guidance.",
+    "process_step_2_title": "Sampling",
+    "process_step_2_desc": "Prototype creation to match your specs.",
+    "process_step_3_title": "Production",
+    "process_step_3_desc": "Vetted, high-quality manufacturing.",
+    "process_step_4_title": "Branding & Packaging",
+    "process_step_4_desc": "Fully customized solutions.",
+    "process_step_5_title": "Delivery",
+    "process_step_5_desc": "Reliable fulfillment from our U.S. warehouse.",
     "processvideos_eyebrow": "Behind the Scenes",
     "processvideos_title": "Craft in Motion",
     "processvideos_steam_shaping": "Steam shaping a premium felt hat body — precision molding",
@@ -87,17 +98,10 @@
     },
     "steps": {
       "1": "01 — Discovery & Design",
-      "2": "02 — Material Selection",
-      "3": "03 — Pattern Cutting",
-      "4": "04 — Hat Blocking",
-      "5": "05 — Sewing & Assembly",
-      "6": "06 — Embroidery & Branding",
-      "7": "07 — Brim Finishing",
-      "8": "08 — Sweatband & Lining",
-      "9": "09 — Steam Pressing",
-      "10": "10 — Quality Control",
-      "11": "11 — Packaging",
-      "12": "12 — Shipping & Logistics"
+      "2": "02 — Sampling",
+      "3": "03 — Production",
+      "4": "04 — Branding & Packaging",
+      "5": "05 — Delivery"
     }
   },
   "processes_standards": {
@@ -144,7 +148,7 @@
     "success": "Thank you! We'll be in touch shortly.",
     "success_title": "Message Sent",
     "success_reset": "Send Another Message",
-    "error": "Something went wrong. Please email us directly at contact@hatmex.com",
+    "error": "Something went wrong. Please email us directly at hatmexco@gmail.com",
     "info": {
       "email_label": "Email Us",
       "address_label": "Visit Us",
@@ -154,8 +158,8 @@
   "footer": {
     "tagline": "For over 10 years, our knowledge and expertise have forged a path of experience and satisfaction...",
     "pages_label": "Pages",
-    "email": "contact@hatmex.com",
-    "copyright": "2025 Copyright HATMEX · contact@hatmex.com",
+    "email": "hatmexco@gmail.com",
+    "copyright": "2025 Copyright HATMEX · hatmexco@gmail.com",
     "newsletter": {
       "placeholder": "Your email address",
       "success": "Subscription successful",

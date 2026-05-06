@@ -3,6 +3,7 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
+import { CONTACT_EMAIL } from '@/lib/config';
 
 export default function ContactInfo() {
   const t = useTranslations('contact');
@@ -31,8 +32,8 @@ export default function ContactInfo() {
           <span className="eyebrow text-[var(--accent)] text-[10px]">
             {t('info.email_label')}
           </span>
-          <a href={`mailto:contact@hatmex.com`} className="font-body text-xl text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors inline-flex items-center gap-3">
-            <span className="text-[var(--accent)]">✉</span> contact@hatmex.com
+          <a href={`mailto:${CONTACT_EMAIL}`} className="font-body text-xl text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors inline-flex items-center gap-3">
+            <span className="text-[var(--accent)]">✉</span> {CONTACT_EMAIL}
           </a>
         </div>
 

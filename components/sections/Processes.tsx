@@ -3,18 +3,39 @@
 import React, { useState, useRef } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 
-const PROCESS_STEPS = Array.from({ length: 12 }, (_, i) => ({
-  id: i + 1,
-  image: `/images/processes/process-${(i + 1).toString().padStart(2, '0')}.png`,
-  label: `STEP ${(i + 1).toString().padStart(2, '0')}`
-}));
+const PROCESS_STEPS = [
+  {
+    id: 1,
+    image: '/images/processes/process-01.png',
+    label: 'STEP 01'
+  },
+  {
+    id: 2,
+    image: '/images/processes/process-10.png',
+    label: 'STEP 02'
+  },
+  {
+    id: 3,
+    image: '/images/processes/process-09.png',
+    label: 'STEP 03'
+  },
+  {
+    id: 4,
+    image: '/images/processes/process-06.png',
+    label: 'STEP 04'
+  },
+  {
+    id: 5,
+    image: '/images/processes/process-12.png',
+    label: 'STEP 05'
+  },
+];
 
 export default function Processes() {
   const t = useTranslations('processes');
   const [activeIdx, setActiveIdx] = useState(0);
-  const containerRef = useRef<HTMLDivElement>(null);
 
   const next = () => setActiveIdx((prev) => (prev + 1) % PROCESS_STEPS.length);
   const prev = () => setActiveIdx((prev) => (prev - 1 + PROCESS_STEPS.length) % PROCESS_STEPS.length);

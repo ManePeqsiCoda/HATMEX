@@ -3,7 +3,7 @@ import { setRequestLocale } from 'next-intl/server';
 import Hero from '@/components/sections/Hero';
 import WeEvolve from '@/components/sections/WeEvolve';
 import Values from '@/components/sections/Values';
-import Processes from '@/components/sections/Processes';
+import ProcessSteps from '@/components/sections/ProcessSteps';
 import ProcessVideoGrid from '@/components/sections/ProcessVideoGrid';
 import Customers from '@/components/sections/Customers';
 import Team from '@/components/sections/Team';
@@ -27,7 +27,7 @@ export default function HomePage({ params: { locale } }: Props) {
       <Hero />
       <WeEvolve />
       <Values />
-      <Processes />
+      <ProcessSteps />
       <ProcessVideoGrid />
       <Customers />
       <Team />

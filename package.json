@@ -11,6 +11,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "framer-motion": "^11.0.28",
+    "lucide-react": "^1.14.0",
     "next": "14.2.3",
     "next-intl": "^3.12.0",
     "react": "^18",

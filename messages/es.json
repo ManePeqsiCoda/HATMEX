@@ -21,6 +21,17 @@
     "customers_heading": "Algunos de Nuestros Clientes",
     "team_heading": "Equipo de Expertos",
     "team_desc": "Estamos orgullosos de nuestros equipos y especialistas que hacen posible cada proyecto mediante su excelencia técnica.",
+    "processsteps_eyebrow": "Cómo Trabajamos",
+    "process_step_1_title": "Descubrimiento y Diseño",
+    "process_step_1_desc": "Tu visión, nuestra guía.",
+    "process_step_2_title": "Muestreo",
+    "process_step_2_desc": "Creación de prototipos según tus especificaciones.",
+    "process_step_3_title": "Producción",
+    "process_step_3_desc": "Manufactura verificada y de alta calidad.",
+    "process_step_4_title": "Branding y Empaque",
+    "process_step_4_desc": "Soluciones totalmente personalizadas.",
+    "process_step_5_title": "Entrega",
+    "process_step_5_desc": "Cumplimiento confiable desde nuestro almacén en EE.UU.",
     "processvideos_eyebrow": "Detrás de Cámaras",
     "processvideos_title": "Artesanía en Movimiento",
     "processvideos_steam_shaping": "Moldeado a vapor de un cuerpo de fieltro premium — conformado preciso",
@@ -87,17 +98,10 @@
     },
     "steps": {
       "1": "01 — Descubrimiento y Diseño",
-      "2": "02 — Selección de Materiales",
-      "3": "03 — Corte de Patrones",
-      "4": "04 — Hormado de Sombreros",
-      "5": "05 — Costura y Ensamblaje",
-      "6": "06 — Bordado y Branding",
-      "7": "07 — Acabado de Visera",
-      "8": "08 — Tafilete y Forro",
-      "9": "09 — Planchado a Vapor",
-      "10": "10 — Control de Calidad",
-      "11": "11 — Empaque",
-      "12": "12 — Envío y Logística"
+      "2": "02 — Muestreo",
+      "3": "03 — Producción",
+      "4": "04 — Branding y Empaque",
+      "5": "05 — Entrega"
     }
   },
   "processes_standards": {
@@ -144,7 +148,7 @@
     "success": "¡Gracias! Nos pondremos en contacto en breve.",
     "success_title": "Mensaje Enviado",
     "success_reset": "Enviar Otro Mensaje",
-    "error": "Algo salió mal. Por favor contáctenos directamente en contact@hatmex.com",
+    "error": "Algo salió mal. Por favor contáctenos directamente en hatmexco@gmail.com",
     "info": {
       "email_label": "Correo Electrónico",
       "address_label": "Visítenos",
@@ -154,8 +158,8 @@
   "footer": {
     "tagline": "Por más de 10 años, nuestro conocimiento y pericia han forjado un camino de experiencia y satisfacción...",
     "pages_label": "Páginas",
-    "email": "contact@hatmex.com",
-    "copyright": "2025 Copyright HATMEX · contact@hatmex.com",
+    "email": "hatmexco@gmail.com",
+    "copyright": "2025 Copyright HATMEX · hatmexco@gmail.com",
     "newsletter": {
       "placeholder": "Su dirección de correo",
       "success": "Suscripción exitosa",

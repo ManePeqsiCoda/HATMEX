@@ -3,12 +3,17 @@
 import React, { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/lib/navigation';
+import { Mail, Phone } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 import { 
   EMAILJS_SERVICE_ID, 
   EMAILJS_TEMPLATE_ID, 
   EMAILJS_PUBLIC_KEY 
 } from '@/lib/config';
+
+// TODO: Actualizar con número real cuando esté disponible
+// const PHONE_NUMBER = "+1 (555) 123-4567";
+const PHONE_DISPLAY = '+1 (___) ___-____';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -56,12 +61,20 @@ export default function Footer() {
               {t('tagline')}
             </p>
 
-            <a 
-              href={`mailto:${t('email')}`}
-              className="text-[#F5F0E8]/80 hover:text-[var(--text-primary)] transition-colors font-display text-sm tracking-widest uppercase"
-            >
-              {t('email')}
-            </a>
+            {/* Contact Info */}
+            <div className="flex flex-col gap-3">
+              <a 
+                href={`mailto:${t('email')}`}
+                className="inline-flex items-center gap-3 text-[#F5F0E8]/80 hover:text-[var(--accent)] transition-colors font-display text-sm tracking-widest uppercase group"
+              >
+                <Mail strokeWidth={1.5} className="w-4 h-4 text-[var(--accent)] group-hover:scale-110 transition-transform" />
+                {t('email')}
+              </a>
+              <div className="inline-flex items-center gap-3 text-[#F5F0E8]/50 font-display text-sm tracking-widest uppercase">
+                <Phone strokeWidth={1.5} className="w-4 h-4 text-[var(--accent)]" />
+                <span>{PHONE_DISPLAY}</span>
+              </div>
+            </div>
 
             <form onSubmit={handleNewsletter} className="flex flex-col gap-4 max-w-sm">
               <div className="flex bg-[#F5F0E8]/[0.08] border border-[#F5F0E8]/15 focus-within:border-[var(--accent)] transition-all">

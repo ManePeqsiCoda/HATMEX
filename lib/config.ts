@@ -6,7 +6,7 @@
 export const SITE_NAME = 'HATMEX';
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://hatmex.com';
 
-export const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? 'contact@hatmex.com';
+export const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? 'hatmexco@gmail.com';
 
 /** EmailJS credentials — set via environment variables */
 export const EMAILJS_SERVICE_ID  = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID  ?? '';

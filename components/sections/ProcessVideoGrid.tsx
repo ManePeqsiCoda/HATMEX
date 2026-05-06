@@ -36,12 +36,6 @@ const VIDEOS = [
     label: 'buckle_detail',
     aspect: 'aspect-[9/16]',
   },
-  {
-    src: '/images/client/3.mp4',
-    poster: '/images/client/posters/3.jpg',
-    label: 'lifestyle_hold',
-    aspect: 'aspect-[9/16]',
-  },
 ];
 
 export default function ProcessVideoGrid() {
@@ -73,14 +67,37 @@ export default function ProcessVideoGrid() {
           </h2>
         </motion.div>
 
+        {/* Row 1: 3 videos */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {VIDEOS.map((video, idx) => (
+          {VIDEOS.slice(0, 3).map((video, idx) => (
             <motion.div
               key={video.src}
               initial={{ y: 30, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.08 }}
+              className="relative overflow-hidden rounded-[2px] border border-[var(--border)] bg-[var(--bg-card)]"
+            >
+              <VideoInteractive
+                src={video.src}
+                poster={video.poster}
+                label={t(`processvideos_${video.label}`)}
+                aspect={video.aspect}
+                reducedMotion={reducedMotion}
+              />
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Row 2: 2 videos centered */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto mt-6">
+          {VIDEOS.slice(3).map((video, idx) => (
+            <motion.div
+              key={video.src}
+              initial={{ y: 30, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: (idx + 3) * 0.08 }}
               className="relative overflow-hidden rounded-[2px] border border-[var(--border)] bg-[var(--bg-card)]"
             >
               <VideoInteractive
