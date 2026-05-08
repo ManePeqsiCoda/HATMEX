@@ -7,42 +7,40 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from '@/lib/navigation';
 import productos from '@/public/Catalogo/productos.json';
 
-type Variante = {
-  sku: string;
-  label: string;
-  imagen: string;
-};
-
 type Producto = {
   sku: string;
   nombre: string;
   material: string;
+  variante: string;
   horma: string;
   falda: string;
+  categoria: string;
   imagen?: string;
-  variantes?: Variante[];
 };
 
-function getCategoria(nombre: string): string {
-  const upper = nombre.toUpperCase();
-  if (upper.includes('BANGORA')) return 'BANGORA';
-  if (upper.includes('CHINO')) return 'CHINO';
-  if (upper.includes('JAP')) return 'JAP';
-  if (upper.includes('TELAR')) return 'TELAR';
-  if (upper.includes('SISOL')) return 'SISOL';
-  if (upper.includes('LANA')) return 'LANA';
-  if (upper.includes('CASHMERE')) return 'CASHMERE';
-  if (upper.includes('PALMA')) return 'PALMA';
-  return 'OTROS';
+function ImageSkeleton() {
+  return (
+    <div className="absolute inset-0 z-0">
+      <div className="w-full h-full bg-[var(--bg-surface)] relative overflow-hidden">
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              'linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.06) 50%, transparent 100%)',
+            backgroundSize: '200% 100%',
+            animation: 'shimmer 1.4s ease-in-out infinite',
+          }}
+        />
+      </div>
+    </div>
+  );
 }
 
-function ProductCard({ product }: { product: Producto }) {
+function ProductCard({ product, priority }: { product: Producto; priority?: boolean }) {
   const t = useTranslations('catalog');
   const [imgError, setImgError] = useState(false);
-  const [activeImagen, setActiveImagen] = useState(product.imagen || `/catalogo/${product.sku}.webp`);
-  const categoria = getCategoria(product.nombre);
-
-  const hasVariants = product.variantes && product.variantes.length > 0;
+  const [loaded, setLoaded] = useState(false);
+  const imagen = product.imagen || `/Catalogo/${product.sku}.webp`;
 
   return (
     <motion.div
@@ -52,18 +50,28 @@ function ProductCard({ product }: { product: Producto }) {
       exit={{ opacity: 0, scale: 0.9 }}
       transition={{ duration: 0.25 }}
       className="catalog-card group bg-[var(--bg-card)] border border-[var(--border)] rounded-[3px] overflow-hidden transition-all duration-300 hover:shadow-[0_8px_32px_rgba(26,46,28,0.10)] hover:border-[var(--accent)]"
+      style={{ contentVisibility: 'auto', containIntrinsicHeight: '520px' }}
     >
       <div className="relative aspect-[4/5] w-full overflow-hidden bg-[var(--bg-surface)]">
         {!imgError && (
-          <Image
-            src={activeImagen}
-            alt={`${product.nombre} — ${product.sku}`}
-            fill
-            loading="lazy"
-            decoding="async"
-            className="object-cover transition-transform duration-500 group-hover:scale-[1.04]"
-            onError={() => setImgError(true)}
-          />
+          <>
+            {!loaded && <ImageSkeleton />}
+            <Image
+              src={imagen}
+              alt={`${product.nombre} — ${product.sku}`}
+              fill
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
+              loading={priority ? 'eager' : 'lazy'}
+              priority={priority}
+              decoding="async"
+              className={`object-cover transition-transform duration-500 group-hover:scale-[1.04] ${
+                loaded ? 'opacity-100' : 'opacity-0'
+              }`}
+              style={{ transition: 'opacity 0.3s ease, transform 0.5s ease' }}
+              onLoad={() => setLoaded(true)}
+              onError={() => { setImgError(true); setLoaded(true); }}
+            />
+          </>
         )}
         {imgError && (
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-[var(--bg-surface)] z-0">
@@ -80,48 +88,25 @@ function ProductCard({ product }: { product: Producto }) {
         </div>
       </div>
 
-      {/* Variant thumbnails */}
-      {hasVariants && (
-        <div className="px-5 pt-3 pb-0 flex gap-2">
-          {product.variantes?.map((v) => (
-            <button
-              key={v.sku}
-              onClick={() => { setActiveImagen(v.imagen); setImgError(false); }}
-              className={`relative w-10 h-10 border overflow-hidden rounded-[2px] transition-all ${
-                activeImagen === v.imagen
-                  ? 'border-[var(--accent)] ring-1 ring-[var(--accent)]'
-                  : 'border-[var(--border)] opacity-70 hover:opacity-100'
-              }`}
-              title={v.label}
-            >
-              <Image
-                src={v.imagen}
-                alt={v.label}
-                fill
-                className="object-cover"
-                loading="lazy"
-              />
-            </button>
-          ))}
-        </div>
-      )}
-
-      <div className={`p-5 md:p-8 ${hasVariants ? 'pt-3' : ''}`}>
+      <div className="p-5 md:p-8">
         <span className="block font-display font-bold text-[9px] tracking-[0.18em] uppercase text-[var(--text-muted)] mb-1.5">
-          {categoria}
+          {product.categoria}
         </span>
         <h3 className="font-display font-bold text-lg tracking-[0.06em] text-[var(--text-primary)] mb-2 uppercase leading-tight">
           {product.nombre}
         </h3>
         <div className="flex flex-col gap-1 mb-6">
           <p className="font-body text-[12px] text-[var(--text-secondary)]">
-            {product.material}
+            {product.material} — {product.variante}
           </p>
           <p className="font-body text-[12px] text-[var(--text-secondary)]">
             {product.horma}
           </p>
           <p className="font-body text-[12px] text-[var(--text-secondary)]">
             {product.falda}
+          </p>
+          <p className="font-body text-[10px] tracking-[0.08em] text-[var(--text-muted)] uppercase mt-1">
+            SKU: {product.sku}
           </p>
         </div>
         <Link
@@ -139,19 +124,41 @@ function ProductCard({ product }: { product: Producto }) {
 export default function CatalogClient() {
   const t = useTranslations('catalog');
   const [activeCategory, setActiveCategory] = useState<string>('all');
+  const [searchQuery, setSearchQuery] = useState('');
 
   const categorias = useMemo(() => {
     const cats = new Set<string>();
-    (productos as Producto[]).forEach((p) => cats.add(getCategoria(p.nombre)));
-    return ['all', ...Array.from(cats).sort()];
+    (productos as Producto[]).forEach((p) => cats.add(p.categoria));
+    const sorted = Array.from(cats).sort((a, b) => {
+      const numA = parseFloat(a.replace('CM', ''));
+      const numB = parseFloat(b.replace('CM', ''));
+      return numA - numB;
+    });
+    return ['all', ...sorted];
   }, []);
 
   const filteredProducts = useMemo(() => {
-    if (activeCategory === 'all') return productos as Producto[];
-    return (productos as Producto[]).filter(
-      (p) => getCategoria(p.nombre) === activeCategory
-    );
-  }, [activeCategory]);
+    let result = productos as Producto[];
+
+    if (activeCategory !== 'all') {
+      result = result.filter((p) => p.categoria === activeCategory);
+    }
+
+    const q = searchQuery.trim().toUpperCase();
+    if (q) {
+      result = result.filter(
+        (p) =>
+          p.sku.toUpperCase().includes(q) ||
+          p.nombre.toUpperCase().includes(q) ||
+          p.material.toUpperCase().includes(q) ||
+          p.variante.toUpperCase().includes(q) ||
+          p.horma.toUpperCase().includes(q) ||
+          p.falda.toUpperCase().includes(q)
+      );
+    }
+
+    return result;
+  }, [activeCategory, searchQuery]);
 
   return (
     <main className="flex flex-col w-full min-h-screen">
@@ -185,17 +192,52 @@ export default function CatalogClient() {
         </div>
       </section>
 
-      {/* SECTION 2: INTRO + FILTER BAR */}
+      {/* SECTION 2: INTRO + SEARCH + FILTER BAR */}
       <section className="py-20 bg-[var(--bg-primary)] px-6 md:px-12">
         <div className="max-w-7xl mx-auto flex flex-col items-center">
           <motion.p
-            className="text-center text-[var(--text-secondary)] font-body text-[15px] leading-[1.8] max-w-[560px] mb-16"
+            className="text-center text-[var(--text-secondary)] font-body text-[15px] leading-[1.8] max-w-[560px] mb-12"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
             {t('intro')}
           </motion.p>
+
+          {/* Search Bar */}
+          <div className="w-full max-w-xl mb-10">
+            <div className="relative">
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder={t('search_placeholder')}
+                className="w-full bg-[var(--bg-surface)] border border-[var(--border)] rounded-[3px] py-3 pl-11 pr-4 font-body text-sm text-[var(--text-primary)] placeholder:text-[var(--text-muted)] focus:outline-none focus:border-[var(--accent)] transition-colors"
+              />
+              <svg
+                className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-muted)]"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+              </svg>
+              {searchQuery && (
+                <button
+                  onClick={() => setSearchQuery('')}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              )}
+            </div>
+            <p className="text-center font-body text-[11px] text-[var(--text-muted)] mt-2">
+              {filteredProducts.length} {filteredProducts.length === 1 ? t('result_singular') : t('result_plural')}
+            </p>
+          </div>
 
           <div className="flex flex-nowrap md:flex-wrap justify-start md:justify-center gap-8 md:gap-12 border-b border-[var(--border)] w-full max-w-4xl overflow-x-auto no-scrollbar md:overflow-visible pb-px">
             {categorias.map((cat) => (
@@ -229,8 +271,12 @@ export default function CatalogClient() {
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8"
           >
             <AnimatePresence mode="popLayout">
-              {filteredProducts.map((product) => (
-                <ProductCard key={product.sku} product={product} />
+              {filteredProducts.map((product, index) => (
+                <ProductCard
+                  key={product.sku}
+                  product={product}
+                  priority={index < 8}
+                />
               ))}
             </AnimatePresence>
           </motion.div>
