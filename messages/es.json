@@ -155,6 +155,9 @@
     "info": {
       "email_label": "Correo Electrónico",
       "address_label": "Visítenos",
+      "phone_label": "Teléfono",
+      "phone_mexico_label": "México",
+      "phone_usa_label": "Estados Unidos",
       "social_label": "Síganos"
     }
   },
@@ -163,11 +166,46 @@
     "pages_label": "Páginas",
     "email": "hatmexco@gmail.com",
     "copyright": "2025 Copyright HATMEX · hatmexco@gmail.com",
+    "phone_mexico_label": "México",
+    "phone_usa_label": "Estados Unidos",
     "newsletter": {
       "placeholder": "Su dirección de correo",
       "success": "Suscripción exitosa",
       "error": "Error en la suscripción"
     }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "items": {
+      "0": {
+        "question": "¿Qué materiales utilizan para los sombreros?",
+        "answer": "Trabajamos lana premium, bangora, palma tejida, fieltro de conejo y castor, y jap. Cada material se selecciona según el estilo, uso y presupuesto del cliente."
+      },
+      "1": {
+        "question": "¿Cuál es el pedido mínimo (MOQ)?",
+        "answer": "Los MOQs varían según el modelo y material. Para lana y bangora solemos manejar lotes desde 72 piezas. Contáctanos para una cotización personalizada según tu proyecto."
+      },
+      "2": {
+        "question": "¿Puedo personalizar mi propia marca y etiquetas?",
+        "answer": "Sí. Somos especialistas en marca privada (private label). Incluimos etiquetas tejidas, placas de cuero, cajas personalizadas y todo el branding que tu marca requiera."
+      },
+      "3": {
+        "question": "¿Hacen envíos a Estados Unidos?",
+        "answer": "Sí. Contamos con almacén de distribución en Eagle Pass, Texas, lo que nos permite entregar de forma ágil y con documentación aduanal completa a clientes en Estados Unidos."
+      },
+      "4": {
+        "question": "¿Cuánto tiempo toma la producción?",
+        "answer": "Desde la aprobación de la muestra, la producción estándar toma entre 30 y 45 días hábiles dependiendo del volumen y complejidad del diseño."
+      },
+      "5": {
+        "question": "¿Dónde están ubicados?",
+        "answer": "Nuestra planta de manufactura está en León, Guanajuato, México — capital mundial del calzado y la marroquinería — con oficinas comerciales en Eagle Pass, Texas."
+      }
+    }
+  },
+  "geo": {
+    "heading": "Fabricante de Sombreros en México para Estados Unidos",
+    "body": "Hatmex es un fabricante mexicano de sombreros de marca privada con más de 10 años de experiencia exportando a Estados Unidos. Producimos gorras y sombreros artesanales en lana, bangora, fieltro de conejo, palma y jap desde nuestra planta en León, Guanajuato, con entrega ágil a través de nuestro almacén en Eagle Pass, Texas."
   },
   "validation": {
     "name": "El nombre es obligatorio (mín. 2 caracteres)",

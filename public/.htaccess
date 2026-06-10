@@ -1,35 +1,68 @@
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteBase /
+# ============================================
+# HATMEX Web - Configuración para Hostinger
+# Next.js 14 export estático + next-intl
+# ============================================
 
-  # Si la peticion es un archivo o directorio real, servirlo directamente
-  RewriteCond %{REQUEST_FILENAME} -f [OR]
-  RewriteCond %{REQUEST_FILENAME} -d
-  RewriteRule ^ - [L]
-
-  # Si la URL ya tiene locale explicito, dejar pasar
-  RewriteRule ^(es|en)(/|$) - [L]
-
-  # Redirigir todo lo demas al locale por defecto (en)
-  RewriteRule ^(.*)$ en/$1 [L]
-</IfModule>
-
-# Deshabilitar listado de directorios
+# --- Seguridad básica ---
 Options -Indexes
+ServerSignature Off
 
-# Compresion gzip para assets estaticos
+# --- Compresión Gzip/Brotli ---
 <IfModule mod_deflate.c>
-  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+  AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json image/svg+xml application/xml
 </IfModule>
 
-# Cache para assets estaticos
+# --- Headers de seguridad ---
+<IfModule mod_headers.c>
+  Header always set X-Frame-Options "DENY"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# --- Cache de assets estáticos ---
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresByType text/css "access plus 1 year"
+  ExpiresByType text/javascript "access plus 1 year"
   ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType application/json "access plus 1 year"
   ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/avif "access plus 1 year"
   ExpiresByType image/png "access plus 1 year"
   ExpiresByType image/jpeg "access plus 1 year"
   ExpiresByType image/svg+xml "access plus 1 year"
   ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType video/mp4 "access plus 1 year"
+  ExpiresByType video/webm "access plus 1 year"
 </IfModule>
+
+# --- Rewrites y redirecciones de locale ---
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # 1. Si es un archivo o directorio real, servirlo directamente
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # 2. Excluir explícitamente assets de Next.js y archivos estáticos
+  RewriteRule ^_next/ - [L]
+  RewriteRule ^images/ - [L]
+  RewriteRule ^Catalogo/ - [L]
+  RewriteRule ^assets\ web/ - [L]
+  RewriteRule \.(css|js|svg|png|jpg|jpeg|gif|webp|avif|ico|woff2|mp4|webm|mov|pdf|json|xml|txt)$ - [L]
+
+  # 3. Si la URL ya tiene locale explícito (en o es), dejar pasar
+  RewriteRule ^(en|es)(/|$) - [L]
+
+  # 4. Redirigir la raíz / a /en/ (redirección visible 302)
+  RewriteRule ^$ en/ [R=302,L]
+
+  # 5. Todo lo demás sin locale -> redirigir a /en/
+  RewriteRule ^(.*)$ en/$1 [R=302,L]
+</IfModule>
+
+# --- Página de error 404 personalizada ---
+ErrorDocument 404 /404.html

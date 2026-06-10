@@ -7,9 +7,20 @@ type Props = {
 };
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
+  const isEs = locale === 'es';
   return {
-    title: locale === 'es' ? 'Departamentos y Procesos | HATMEX' : 'Departments & Processes | HATMEX',
-    description: locale === 'es' ? 'Explore nuestros departamentos estratégicos y procesos de manufactura USMCA para headwear de marca privada.' : 'Explore our strategic departments and USMCA manufacturing processes for private label headwear.',
+    title: isEs ? 'Procesos de Fabricación | Hatmex' : 'Manufacturing Processes | Hatmex',
+    description: isEs
+      ? 'Descubre cómo fabricamos sombreros artesanales Wrangler 2026. Procesos de calidad desde el diseño hasta la entrega.'
+      : 'Discover how we manufacture Wrangler 2026 handmade hats. Quality processes from design to delivery.',
+    openGraph: {
+      title: isEs ? 'Procesos de Fabricación | Hatmex' : 'Manufacturing Processes | Hatmex',
+      description: isEs
+        ? 'Descubre cómo fabricamos sombreros artesanales Wrangler 2026. Procesos de calidad desde el diseño hasta la entrega.'
+        : 'Discover how we manufacture Wrangler 2026 handmade hats. Quality processes from design to delivery.',
+      url: `https://hatmex.com.mx/${locale}/processes/`,
+      images: [{ url: '/images/og-image.webp', width: 1200, height: 630, alt: 'HATMEX Processes' }],
+    },
   };
 }
 

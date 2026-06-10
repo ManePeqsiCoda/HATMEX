@@ -1,902 +1,2522 @@
 [
   {
     "sku": "W8E01-10",
-    "nombre": "BANGORA 6RANDAS",
-    "material": "BANGORA",
-    "variante": "6RANDAS",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "BANGORA 6RANDAS",
+      "en": "BANGORA 6BANDS"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "6RANDAS",
+      "en": "6BANDS"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W8E01-10.webp"
   },
   {
     "sku": "W16C01-10",
-    "nombre": "BANGORA CHINO GLAZ ROMBOS",
-    "material": "BANGORA",
-    "variante": "CHINO GLAZ ROMBOS",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "BANGORA CHINO GLAZ ROMBOS",
+      "en": "BANGORA CHINO GLAZ DIAMONDS"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "CHINO GLAZ ROMBOS",
+      "en": "CHINO GLAZ DIAMONDS"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W16C01-10.webp"
   },
   {
     "sku": "W10A01-10",
-    "nombre": "BANGORA FINO",
-    "material": "BANGORA",
-    "variante": "FINO - 6X 5.5X 5.5",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "BANGORA FINO",
+      "en": "BANGORA FINE"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "FINO - 6X 5.5X 5.5",
+      "en": "FINE - 6X 5.5X 5.5"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W10A01-10.webp"
   },
   {
     "sku": "W10A01P-10",
-    "nombre": "BANGORA FINO PREMIUM",
-    "material": "BANGORA",
-    "variante": "FINO - 6X 5.5X 5.5",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "BANGORA FINO PREMIUM",
+      "en": "BANGORA FINE PREMIUM"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "FINO - 6X 5.5X 5.5",
+      "en": "FINE - 6X 5.5X 5.5"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W10A01P-10.webp"
   },
   {
     "sku": "W23801-10",
-    "nombre": "BANGORA IVORY Y CAFÉ",
-    "material": "BANGORA",
-    "variante": "IVORY Y CAFÉ",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "BANGORA IVORY Y CAFÉ",
+      "en": "BANGORA IVORY AND BROWN"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "IVORY Y CAFÉ",
+      "en": "IVORY AND BROWN"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W23801-10.webp"
   },
   {
     "sku": "W14E01-10",
-    "nombre": "BANGORA RANDA PUNTOS",
-    "material": "BANGORA",
-    "variante": "RANDA PUNTOS",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "BANGORA RANDA PUNTOS",
+      "en": "BANGORA DOT BAND"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "RANDA PUNTOS",
+      "en": "DOT BAND"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W14E01-10.webp"
   },
   {
     "sku": "W14CS01-10",
-    "nombre": "BANGORA RANDA TT CAFÉ NIÑO",
-    "material": "BANGORA",
-    "variante": "RANDA TT CAFÉ NIÑO",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "BANGORA RANDA TT CAFÉ NIÑO",
+      "en": "BANGORA TT BAND BROWN KIDS"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "RANDA TT CAFÉ NIÑO",
+      "en": "TT BAND BROWN KIDS"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W14CS01-10.webp"
   },
   {
     "sku": "W14A01-10-A",
-    "nombre": "BANGORA TAN FLECHAS",
-    "material": "BANGORA",
-    "variante": "TAN FLECHAS",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "BANGORA TAN FLECHAS",
+      "en": "BANGORA TAN ARROWS"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "TAN FLECHAS",
+      "en": "TAN ARROWS"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W14A01-10-A.webp"
   },
   {
     "sku": "W8C01-10",
-    "nombre": "BANGORA ZIGZAG",
-    "material": "BANGORA",
-    "variante": "ZIGZAG",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "BANGORA ZIGZAG",
+      "en": "BANGORA ZIGZAG"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "ZIGZAG",
+      "en": "ZIGZAG"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W8C01-10.webp"
   },
   {
     "sku": "W3401-10",
-    "nombre": "CHINO GLAZ G3 2X2",
-    "material": "CHINO",
-    "variante": "GLAZ G3 2X2",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "CHINO GLAZ G3 2X2",
+      "en": "CHINO GLAZ G3 2X2"
+    },
+    "material": {
+      "es": "CHINO",
+      "en": "CHINO"
+    },
+    "variante": {
+      "es": "GLAZ G3 2X2",
+      "en": "GLAZ G3 2X2"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W3401-10.webp"
   },
   {
     "sku": "W14A01-10-B",
-    "nombre": "CHINO GLAZ IVORY 5BU 2X2",
-    "material": "CHINO",
-    "variante": "GLAZ IVORY 5BU 2X2",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "CHINO GLAZ IVORY 5BU 2X2",
+      "en": "CHINO GLAZ IVORY 5BU 2X2"
+    },
+    "material": {
+      "es": "CHINO",
+      "en": "CHINO"
+    },
+    "variante": {
+      "es": "GLAZ IVORY 5BU 2X2",
+      "en": "GLAZ IVORY 5BU 2X2"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W14A01-10-B.webp"
   },
   {
     "sku": "W4201-10",
-    "nombre": "JAP G2 1X1",
-    "material": "JAP",
-    "variante": "G2 1X1",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "JAP G2 1X1",
+      "en": "JAP G2 1X1"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G2 1X1",
+      "en": "G2 1X1"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W4201-10.webp"
   },
   {
     "sku": "W4401-10",
-    "nombre": "JAP G2 2X2",
-    "material": "JAP",
-    "variante": "G2 2X2",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "JAP G2 2X2",
+      "en": "JAP G2 2X2"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G2 2X2",
+      "en": "G2 2X2"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W4401-10.webp"
   },
   {
     "sku": "W4901-10",
-    "nombre": "JAP G3 2X2",
-    "material": "JAP",
-    "variante": "G3 2X2",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "JAP G3 2X2",
+      "en": "JAP G3 2X2"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G3 2X2",
+      "en": "G3 2X2"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W4901-10.webp"
   },
   {
     "sku": "W5001-10",
-    "nombre": "JAP G3 2X2 RANDADO",
-    "material": "JAP",
-    "variante": "G3 2X2 RANDADO",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "JAP G3 2X2 RANDADO",
+      "en": "JAP G3 2X2 BANDDO"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G3 2X2 RANDADO",
+      "en": "G3 2X2 BANDDO"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W5001-10.webp"
   },
   {
     "sku": "W5901-10",
-    "nombre": "JAP G5 2X2 6X5X6",
-    "material": "JAP",
-    "variante": "G5 2X2 6X5X6",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "JAP G5 2X2 6X5X6",
+      "en": "JAP G5 2X2 6X5X6"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 6X5X6",
+      "en": "G5 2X2 6X5X6"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W5901-10.webp"
   },
   {
     "sku": "W7501-10",
-    "nombre": "JAP G5 2X2 RAN TT",
-    "material": "JAP",
-    "variante": "G5 2X2 RAN TT",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "JAP G5 2X2 RAN TT",
+      "en": "JAP G5 2X2 RAN TT"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 RAN TT",
+      "en": "G5 2X2 RAN TT"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W7501-10.webp"
   },
   {
     "sku": "W16101-10",
-    "nombre": "JAP G5 2X2 RANDA LÍNEA Y ROMBOS",
-    "material": "JAP",
-    "variante": "G5 2X2 RANDA LÍNEA Y ROMBOS",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "JAP G5 2X2 RANDA LÍNEA Y ROMBOS",
+      "en": "JAP G5 2X2 BAND LINE AND DIAMONDS"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 RANDA LÍNEA Y ROMBOS",
+      "en": "G5 2X2 BAND LINE AND DIAMONDS"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W16101-10.webp"
   },
   {
     "sku": "W33901-10",
-    "nombre": "JAP G5 2X2 RANDA PUNTOS",
-    "material": "JAP",
-    "variante": "G5 2X2 RANDA PUNTOS",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "JAP G5 2X2 RANDA PUNTOS",
+      "en": "JAP G5 2X2 DOT BAND"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 RANDA PUNTOS",
+      "en": "G5 2X2 DOT BAND"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W33901-10.webp"
   },
   {
     "sku": "W172C01-10",
-    "nombre": "JAP G5 2X2 ROMBOS",
-    "material": "JAP",
-    "variante": "G5 2X2 ROMBOS",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "JAP G5 2X2 ROMBOS",
+      "en": "JAP G5 2X2 DIAMONDS"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 ROMBOS",
+      "en": "G5 2X2 DIAMONDS"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W172C01-10.webp"
   },
   {
     "sku": "WN16601-10",
-    "nombre": "JAP G5 2X2 TRIPLE RANDA (N)",
-    "material": "JAP",
-    "variante": "G5 2X2 TRIPLE RANDA",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "JAP G5 2X2 TRIPLE RANDA (N)",
+      "en": "JAP G5 2X2 TRIPLE BAND (N)"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 TRIPLE RANDA",
+      "en": "G5 2X2 TRIPLE BAND"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/WN16601-10.webp"
   },
   {
     "sku": "W16601-10",
-    "nombre": "JAP G5 2X2 TRIPLE RANDA",
-    "material": "JAP",
-    "variante": "G5 2X2 TRIPLE RANDA",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "JAP G5 2X2 TRIPLE RANDA",
+      "en": "JAP G5 2X2 TRIPLE BAND"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 TRIPLE RANDA",
+      "en": "G5 2X2 TRIPLE BAND"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W16601-10.webp"
   },
   {
     "sku": "W9901-10",
-    "nombre": "JAP G5 2X2 WILDFIRE",
-    "material": "JAP",
-    "variante": "G5 2X2 WILDFIRE",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "JAP G5 2X2 WILDFIRE",
+      "en": "JAP G5 2X2 WILDFIRE"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 WILDFIRE",
+      "en": "G5 2X2 WILDFIRE"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W9901-10.webp"
   },
   {
     "sku": "W131A01-10",
-    "nombre": "SISOL 3X3",
-    "material": "SISOL",
-    "variante": "3X3",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "SISOL 3X3",
+      "en": "SISOL 3X3"
+    },
+    "material": {
+      "es": "SISOL",
+      "en": "SISOL"
+    },
+    "variante": {
+      "es": "3X3",
+      "en": "3X3"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W131A01-10.webp"
   },
   {
     "sku": "W17501-10",
-    "nombre": "JAP G5 3X3 PAPER VENT",
-    "material": "JAP",
-    "variante": "G5 3X3 PAPER VENT",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "JAP G5 3X3 PAPER VENT",
+      "en": "JAP G5 3X3 PAPER VENT"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 3X3 PAPER VENT",
+      "en": "G5 3X3 PAPER VENT"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W17501-10.webp"
   },
   {
     "sku": "W153A01-10",
-    "nombre": "TELAR 2BU 1X1 G14 BLANCO",
-    "material": "TELAR",
-    "variante": "2BU 1X1 G14 BLANCO",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "TELAR 2BU 1X1 G14 BLANCO",
+      "en": "WOVEN 2BU 1X1 G14 WHITE"
+    },
+    "material": {
+      "es": "TELAR",
+      "en": "WOVEN"
+    },
+    "variante": {
+      "es": "2BU 1X1 G14 BLANCO",
+      "en": "2BU 1X1 G14 WHITE"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W153A01-10.webp"
   },
   {
     "sku": "W10901-10",
-    "nombre": "LANA CHOCO 210GR",
-    "material": "LANA",
-    "variante": "CHOCO 210GR",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "LANA CHOCO 210GR",
+      "en": "WOOL CHOCOLATE 210GR"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "CHOCO 210GR",
+      "en": "CHOCOLATE 210GR"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W10901-10.webp"
   },
   {
     "sku": "W11101-10",
-    "nombre": "LANA IVORY 210GR",
-    "material": "LANA",
-    "variante": "IVORY 210GR",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "LANA IVORY 210GR",
+      "en": "WOOL IVORY 210GR"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "IVORY 210GR",
+      "en": "IVORY 210GR"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W11101-10.webp"
   },
   {
     "sku": "W11201-10",
-    "nombre": "LANA NEGRA 210GR",
-    "material": "LANA",
-    "variante": "NEGRA 210GR",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "LANA NEGRA 210GR",
+      "en": "WOOL BLACK 210GR"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "NEGRA 210GR",
+      "en": "BLACK 210GR"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W11201-10.webp"
   },
   {
     "sku": "W11301-10",
-    "nombre": "LANA SILVER BELLY 210GR",
-    "material": "LANA",
-    "variante": "SILVER BELLY 210GR",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "LANA SILVER BELLY 210GR",
+      "en": "WOOL SILVER BELLY 210GR"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "SILVER BELLY 210GR",
+      "en": "SILVER BELLY 210GR"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W11301-10.webp"
   },
   {
     "sku": "W111A01-10",
-    "nombre": "LANA STEEL 210GR",
-    "material": "LANA",
-    "variante": "STEEL 210GR",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "LANA STEEL 210GR",
+      "en": "WOOL STEEL 210GR"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "STEEL 210GR",
+      "en": "STEEL 210GR"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W111A01-10.webp"
   },
   {
     "sku": "W111B01-10",
-    "nombre": "LANA NATURAL 210GR",
-    "material": "LANA",
-    "variante": "NATURAL 210GR",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "LANA NATURAL 210GR",
+      "en": "WOOL NATURAL 210GR"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "NATURAL 210GR",
+      "en": "NATURAL 210GR"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W111B01-10.webp"
   },
   {
     "sku": "W113A01-10",
-    "nombre": "LANA PLATINO 210GR",
-    "material": "LANA",
-    "variante": "PLATINO 210GR",
-    "horma": "DOBLE S",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "LANA PLATINO 210GR",
+      "en": "WOOL PLATINUM 210GR"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "PLATINO 210GR",
+      "en": "PLATINUM 210GR"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W113A01-10.webp"
   },
   {
     "sku": "W12301-10.5",
-    "nombre": "CASHMERE GRIS 220GR",
-    "material": "CASHMERE",
-    "variante": "GRIS 220GR",
-    "horma": "DOBLE S",
-    "falda": "10.5CM",
-    "categoria": "10.5CM",
+    "nombre": {
+      "es": "rabbit felt / beaver felt GRIS 220GR",
+      "en": "rabbit felt / beaver felt GRAY 220GR"
+    },
+    "material": {
+      "es": "rabbit felt / beaver felt",
+      "en": "rabbit felt / beaver felt"
+    },
+    "variante": {
+      "es": "GRIS 220GR",
+      "en": "GRAY 220GR"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10.5CM",
+      "en": "10.5CM"
+    },
+    "categoria": {
+      "es": "10.5CM",
+      "en": "10.5CM"
+    },
     "imagen": "/Catalogo/W12301-10.5.webp"
   },
   {
     "sku": "W12161-10.5",
-    "nombre": "CASHMERE SILVER BELLY 220GR",
-    "material": "CASHMERE",
-    "variante": "SILVER BELLY 220GR",
-    "horma": "DOBLE S",
-    "falda": "10.5CM",
-    "categoria": "10.5CM",
+    "nombre": {
+      "es": "rabbit felt / beaver felt SILVER BELLY 220GR",
+      "en": "rabbit felt / beaver felt SILVER BELLY 220GR"
+    },
+    "material": {
+      "es": "rabbit felt / beaver felt",
+      "en": "rabbit felt / beaver felt"
+    },
+    "variante": {
+      "es": "SILVER BELLY 220GR",
+      "en": "SILVER BELLY 220GR"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10.5CM",
+      "en": "10.5CM"
+    },
+    "categoria": {
+      "es": "10.5CM",
+      "en": "10.5CM"
+    },
     "imagen": "/Catalogo/W12161-10.5.webp"
   },
   {
     "sku": "W12101-10.5",
-    "nombre": "CASHMERE NEGRO 220GR",
-    "material": "CASHMERE",
-    "variante": "NEGRO 220GR",
-    "horma": "DOBLE S",
-    "falda": "10.5CM",
-    "categoria": "10.5CM",
+    "nombre": {
+      "es": "rabbit felt / beaver felt NEGRO 220GR",
+      "en": "rabbit felt / beaver felt BLACK 220GR"
+    },
+    "material": {
+      "es": "rabbit felt / beaver felt",
+      "en": "rabbit felt / beaver felt"
+    },
+    "variante": {
+      "es": "NEGRO 220GR",
+      "en": "BLACK 220GR"
+    },
+    "horma": {
+      "es": "DOBLE S",
+      "en": "DOUBLE S"
+    },
+    "falda": {
+      "es": "10.5CM",
+      "en": "10.5CM"
+    },
+    "categoria": {
+      "es": "10.5CM",
+      "en": "10.5CM"
+    },
     "imagen": "/Catalogo/W12101-10.5.webp"
   },
   {
     "sku": "W8D03-11",
-    "nombre": "BANGORA PANAL ANCHO",
-    "material": "BANGORA",
-    "variante": "PANAL ANCHO",
-    "horma": "RESISTOL",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "BANGORA PANAL ANCHO",
+      "en": "BANGORA HONEYCOMB WIDE"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "PANAL ANCHO",
+      "en": "HONEYCOMB WIDE"
+    },
+    "horma": {
+      "es": "RESISTOL",
+      "en": "RESISTOL"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W8D03-11.webp"
   },
   {
     "sku": "W14A03-11",
-    "nombre": "BANGORA TAN FLECHAS",
-    "material": "BANGORA",
-    "variante": "TAN FLECHAS",
-    "horma": "RESISTOL",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "BANGORA TAN FLECHAS",
+      "en": "BANGORA TAN ARROWS"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "TAN FLECHAS",
+      "en": "TAN ARROWS"
+    },
+    "horma": {
+      "es": "RESISTOL",
+      "en": "RESISTOL"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W14A03-11.webp"
   },
   {
     "sku": "W3403-11",
-    "nombre": "CHINO GLAZ G3 2X2",
-    "material": "CHINO",
-    "variante": "GLAZ G3 2X2",
-    "horma": "RESISTOL",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "CHINO GLAZ G3 2X2",
+      "en": "CHINO GLAZ G3 2X2"
+    },
+    "material": {
+      "es": "CHINO",
+      "en": "CHINO"
+    },
+    "variante": {
+      "es": "GLAZ G3 2X2",
+      "en": "GLAZ G3 2X2"
+    },
+    "horma": {
+      "es": "RESISTOL",
+      "en": "RESISTOL"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W3403-11.webp"
   },
   {
     "sku": "W13B03-11",
-    "nombre": "BANGORA RANDA TT TAN",
-    "material": "BANGORA",
-    "variante": "RANDA TT TAN",
-    "horma": "RESISTOL",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "BANGORA RANDA TT TAN",
+      "en": "BANGORA TT BAND TAN"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "RANDA TT TAN",
+      "en": "TT BAND TAN"
+    },
+    "horma": {
+      "es": "RESISTOL",
+      "en": "RESISTOL"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W13B03-11.webp"
   },
   {
     "sku": "WN14A03-11",
-    "nombre": "BANGORA TAN FLECHAS (N)",
-    "material": "BANGORA",
-    "variante": "TAN FLECHAS",
-    "horma": "RESISTOL",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "BANGORA TAN FLECHAS (N)",
+      "en": "BANGORA TAN ARROWS (N)"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "TAN FLECHAS",
+      "en": "TAN ARROWS"
+    },
+    "horma": {
+      "es": "RESISTOL",
+      "en": "RESISTOL"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/WN14A03-11.webp"
   },
   {
     "sku": "W18903-11",
-    "nombre": "CHINO GLAZ IVORY 5BU 2X2",
-    "material": "CHINO",
-    "variante": "GLAZ IVORY 5BU 2X2",
-    "horma": "RESISTOL",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "CHINO GLAZ IVORY 5BU 2X2",
+      "en": "CHINO GLAZ IVORY 5BU 2X2"
+    },
+    "material": {
+      "es": "CHINO",
+      "en": "CHINO"
+    },
+    "variante": {
+      "es": "GLAZ IVORY 5BU 2X2",
+      "en": "GLAZ IVORY 5BU 2X2"
+    },
+    "horma": {
+      "es": "RESISTOL",
+      "en": "RESISTOL"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W18903-11.webp"
   },
   {
     "sku": "W6903-11",
-    "nombre": "JAP G5 2X2 CUADROS TT",
-    "material": "JAP",
-    "variante": "G5 2X2 CUADROS TT",
-    "horma": "RESISTOL",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "JAP G5 2X2 CUADROS TT",
+      "en": "JAP G5 2X2 CHECK TT"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 CUADROS TT",
+      "en": "G5 2X2 CHECK TT"
+    },
+    "horma": {
+      "es": "RESISTOL",
+      "en": "RESISTOL"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W6903-11.webp"
   },
   {
     "sku": "W34A03-11",
-    "nombre": "CHINO GLAZ G3 2X2 TT",
-    "material": "CHINO",
-    "variante": "GLAZ G3 2X2 TT",
-    "horma": "RESISTOL",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "CHINO GLAZ G3 2X2 TT",
+      "en": "CHINO GLAZ G3 2X2 TT"
+    },
+    "material": {
+      "es": "CHINO",
+      "en": "CHINO"
+    },
+    "variante": {
+      "es": "GLAZ G3 2X2 TT",
+      "en": "GLAZ G3 2X2 TT"
+    },
+    "horma": {
+      "es": "RESISTOL",
+      "en": "RESISTOL"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W34A03-11.webp"
   },
   {
     "sku": "W5903-11",
-    "nombre": "JAP G5 2X2 6X5X6",
-    "material": "JAP",
-    "variante": "G5 2X2 6X5X6",
-    "horma": "RESISTOL",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "JAP G5 2X2 6X5X6",
+      "en": "JAP G5 2X2 6X5X6"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 6X5X6",
+      "en": "G5 2X2 6X5X6"
+    },
+    "horma": {
+      "es": "RESISTOL",
+      "en": "RESISTOL"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W5903-11.webp"
   },
   {
     "sku": "W7903-11",
-    "nombre": "JAP G5 2X2 RANDA 7504 TAN",
-    "material": "JAP",
-    "variante": "G5 2X2 RANDA 7504 TAN",
-    "horma": "RESISTOL",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "JAP G5 2X2 RANDA 7504 TAN",
+      "en": "JAP G5 2X2 BAND 7504 TAN"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 RANDA 7504 TAN",
+      "en": "G5 2X2 BAND 7504 TAN"
+    },
+    "horma": {
+      "es": "RESISTOL",
+      "en": "RESISTOL"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W7903-11.webp"
   },
   {
     "sku": "W13603-11",
-    "nombre": "JAP G5 2X2 RANDA PANAL",
-    "material": "JAP",
-    "variante": "G5 2X2 RANDA PANAL",
-    "horma": "RESISTOL",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "JAP G5 2X2 RANDA PANAL",
+      "en": "JAP G5 2X2 HONEYCOMB BAND"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 RANDA PANAL",
+      "en": "G5 2X2 HONEYCOMB BAND"
+    },
+    "horma": {
+      "es": "RESISTOL",
+      "en": "RESISTOL"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W13603-11.webp"
   },
   {
     "sku": "W16303-11",
-    "nombre": "JAP G5 2X2 RANDA X",
-    "material": "JAP",
-    "variante": "G5 2X2 RANDA X",
-    "horma": "RESISTOL",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "JAP G5 2X2 RANDA X",
+      "en": "JAP G5 2X2 X BAND"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 RANDA X",
+      "en": "G5 2X2 X BAND"
+    },
+    "horma": {
+      "es": "RESISTOL",
+      "en": "RESISTOL"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W16303-11.webp"
   },
   {
     "sku": "W17503-11",
-    "nombre": "JAP G5 3X3 PAPER VENT",
-    "material": "JAP",
-    "variante": "G5 3X3 PAPER VENT",
-    "horma": "RESISTOL",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "JAP G5 3X3 PAPER VENT",
+      "en": "JAP G5 3X3 PAPER VENT"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 3X3 PAPER VENT",
+      "en": "G5 3X3 PAPER VENT"
+    },
+    "horma": {
+      "es": "RESISTOL",
+      "en": "RESISTOL"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W17503-11.webp"
   },
   {
     "sku": "W131A03-11",
-    "nombre": "SISOL 3X3",
-    "material": "SISOL",
-    "variante": "3X3",
-    "horma": "RESISTOL",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "SISOL 3X3",
+      "en": "SISOL 3X3"
+    },
+    "material": {
+      "es": "SISOL",
+      "en": "SISOL"
+    },
+    "variante": {
+      "es": "3X3",
+      "en": "3X3"
+    },
+    "horma": {
+      "es": "RESISTOL",
+      "en": "RESISTOL"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W131A03-11.webp"
   },
   {
     "sku": "W13203-11",
-    "nombre": "JAP G5 2X2 RAN TT",
-    "material": "JAP",
-    "variante": "G5 2X2 RAN TT",
-    "horma": "RESISTOL",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "JAP G5 2X2 RAN TT",
+      "en": "JAP G5 2X2 RAN TT"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 RAN TT",
+      "en": "G5 2X2 RAN TT"
+    },
+    "horma": {
+      "es": "RESISTOL",
+      "en": "RESISTOL"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W13203-11.webp"
   },
   {
     "sku": "W10903-11",
-    "nombre": "LANA CHOCO 210 GR",
-    "material": "LANA",
-    "variante": "CHOCO 210 GR",
-    "horma": "RESISTOL",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "LANA CHOCO 210 GR",
+      "en": "WOOL CHOCOLATE 210 GR"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "CHOCO 210 GR",
+      "en": "CHOCOLATE 210 GR"
+    },
+    "horma": {
+      "es": "RESISTOL",
+      "en": "RESISTOL"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W10903-11.webp"
   },
   {
     "sku": "W11203-11",
-    "nombre": "LANA NEGRA 210 GR",
-    "material": "LANA",
-    "variante": "NEGRA 210 GR",
-    "horma": "RESISTOL",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "LANA NEGRA 210 GR",
+      "en": "WOOL BLACK 210 GR"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "NEGRA 210 GR",
+      "en": "BLACK 210 GR"
+    },
+    "horma": {
+      "es": "RESISTOL",
+      "en": "RESISTOL"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W11203-11.webp"
   },
   {
     "sku": "W10902-11",
-    "nombre": "LANA CHOCO 210 GR",
-    "material": "LANA",
-    "variante": "CHOCO 210 GR",
-    "horma": "RODEO 2",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "LANA CHOCO 210 GR",
+      "en": "WOOL CHOCOLATE 210 GR"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "CHOCO 210 GR",
+      "en": "CHOCOLATE 210 GR"
+    },
+    "horma": {
+      "es": "RODEO 2",
+      "en": "RODEO 2"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W10902-11.webp"
   },
   {
     "sku": "W11202-11",
-    "nombre": "LANA NEGRA 210 GR",
-    "material": "LANA",
-    "variante": "NEGRA 210 GR",
-    "horma": "RODEO 2",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "LANA NEGRA 210 GR",
+      "en": "WOOL BLACK 210 GR"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "NEGRA 210 GR",
+      "en": "BLACK 210 GR"
+    },
+    "horma": {
+      "es": "RODEO 2",
+      "en": "RODEO 2"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W11202-11.webp"
   },
   {
     "sku": "WV2709-11",
-    "nombre": "CHINO G5 2X2 RANDA ZIGZAG",
-    "material": "CHINO",
-    "variante": "G5 2X2 RANDA ZIGZAG",
-    "horma": "DOBLE S USA",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "CHINO G5 2X2 RANDA ZIGZAG",
+      "en": "CHINO G5 2X2 ZIGZAG BAND"
+    },
+    "material": {
+      "es": "CHINO",
+      "en": "CHINO"
+    },
+    "variante": {
+      "es": "G5 2X2 RANDA ZIGZAG",
+      "en": "G5 2X2 ZIGZAG BAND"
+    },
+    "horma": {
+      "es": "DOBLE S USA",
+      "en": "DOUBLE S USA"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/WV2709-11.webp"
   },
   {
     "sku": "WV23509-11",
-    "nombre": "CHINO GLAZ 5BU 2X2",
-    "material": "CHINO",
-    "variante": "GLAZ 5BU 2X2",
-    "horma": "DOBLE S USA",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "CHINO GLAZ 5BU 2X2",
+      "en": "CHINO GLAZ 5BU 2X2"
+    },
+    "material": {
+      "es": "CHINO",
+      "en": "CHINO"
+    },
+    "variante": {
+      "es": "GLAZ 5BU 2X2",
+      "en": "GLAZ 5BU 2X2"
+    },
+    "horma": {
+      "es": "DOBLE S USA",
+      "en": "DOUBLE S USA"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/WV23509-11.webp"
   },
   {
     "sku": "WV7309-11",
-    "nombre": "JAP G5 2X2 RANDA IVORY",
-    "material": "JAP",
-    "variante": "G5 2X2 RANDA IVORY",
-    "horma": "DOBLE S USA",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "JAP G5 2X2 RANDA IVORY",
+      "en": "JAP G5 2X2 BAND IVORY"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 RANDA IVORY",
+      "en": "G5 2X2 BAND IVORY"
+    },
+    "horma": {
+      "es": "DOBLE S USA",
+      "en": "DOUBLE S USA"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/WV7309-11.webp"
   },
   {
     "sku": "W7509-10",
-    "nombre": "JAP G5 2X2 RAN TT",
-    "material": "JAP",
-    "variante": "G5 2X2 RAN TT",
-    "horma": "DOBLE S USA",
-    "falda": "10CM",
-    "categoria": "10CM",
+    "nombre": {
+      "es": "JAP G5 2X2 RAN TT",
+      "en": "JAP G5 2X2 RAN TT"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 RAN TT",
+      "en": "G5 2X2 RAN TT"
+    },
+    "horma": {
+      "es": "DOBLE S USA",
+      "en": "DOUBLE S USA"
+    },
+    "falda": {
+      "es": "10CM",
+      "en": "10CM"
+    },
+    "categoria": {
+      "es": "10CM",
+      "en": "10CM"
+    },
     "imagen": "/Catalogo/W7509-10.webp"
   },
   {
     "sku": "WV74A09-11",
-    "nombre": "JAP G5 2X2 RANDA",
-    "material": "JAP",
-    "variante": "G5 2X2 RANDA",
-    "horma": "DOBLE S USA",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "JAP G5 2X2 RANDA",
+      "en": "JAP G5 2X2 BAND"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 RANDA",
+      "en": "G5 2X2 BAND"
+    },
+    "horma": {
+      "es": "DOBLE S USA",
+      "en": "DOUBLE S USA"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/WV74A09-11.webp"
   },
   {
     "sku": "WV23209-11",
-    "nombre": "JAP G5 2X2 RANDA PUNTOS",
-    "material": "JAP",
-    "variante": "G5 2X2 RANDA PUNTOS",
-    "horma": "DOBLE S USA",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "JAP G5 2X2 RANDA PUNTOS",
+      "en": "JAP G5 2X2 DOT BAND"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 RANDA PUNTOS",
+      "en": "G5 2X2 DOT BAND"
+    },
+    "horma": {
+      "es": "DOBLE S USA",
+      "en": "DOUBLE S USA"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/WV23209-11.webp"
   },
   {
     "sku": "WV9109-11",
-    "nombre": "JAP G5 2X2 TT OXIDO",
-    "material": "JAP",
-    "variante": "G5 2X2 TT OXIDO",
-    "horma": "DOBLE S USA",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "JAP G5 2X2 TT OXIDO",
+      "en": "JAP G5 2X2 TT RUST"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 TT OXIDO",
+      "en": "G5 2X2 TT RUST"
+    },
+    "horma": {
+      "es": "DOBLE S USA",
+      "en": "DOUBLE S USA"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/WV9109-11.webp"
   },
   {
     "sku": "WV16009-11",
-    "nombre": "JAP G5 2X2 TT RANDA ROMBOS",
-    "material": "JAP",
-    "variante": "G5 2X2 TT RANDA ROMBOS",
-    "horma": "DOBLE S USA",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "JAP G5 2X2 TT RANDA ROMBOS",
+      "en": "JAP G5 2X2 TT DIAMOND BAND"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 TT RANDA ROMBOS",
+      "en": "G5 2X2 TT DIAMOND BAND"
+    },
+    "horma": {
+      "es": "DOBLE S USA",
+      "en": "DOUBLE S USA"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/WV16009-11.webp"
   },
   {
     "sku": "W11609-11",
-    "nombre": "PALMA VERDE",
-    "material": "PALMA",
-    "variante": "VERDE",
-    "horma": "DOBLE S USA",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "PALMA VERDE",
+      "en": "PALM GREEN"
+    },
+    "material": {
+      "es": "PALMA",
+      "en": "PALM"
+    },
+    "variante": {
+      "es": "VERDE",
+      "en": "GREEN"
+    },
+    "horma": {
+      "es": "DOBLE S USA",
+      "en": "DOUBLE S USA"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W11609-11.webp"
   },
   {
     "sku": "WV9409-11",
-    "nombre": "JAP G5 2X2 TT SS",
-    "material": "JAP",
-    "variante": "G5 2X2 TT SS",
-    "horma": "DOBLE S USA",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "JAP G5 2X2 TT SS",
+      "en": "JAP G5 2X2 TT SS"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 TT SS",
+      "en": "G5 2X2 TT SS"
+    },
+    "horma": {
+      "es": "DOBLE S USA",
+      "en": "DOUBLE S USA"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/WV9409-11.webp"
   },
   {
     "sku": "W14C02-11",
-    "nombre": "BANGORA 2 RANDAS IVORY",
-    "material": "BANGORA",
-    "variante": "2 RANDAS IVORY",
-    "horma": "RODEO 2",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "BANGORA 2 RANDAS IVORY",
+      "en": "BANGORA 2 BANDS IVORY"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "2 RANDAS IVORY",
+      "en": "2 BANDS IVORY"
+    },
+    "horma": {
+      "es": "RODEO 2",
+      "en": "RODEO 2"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W14C02-11.webp"
   },
   {
     "sku": "W602-11",
-    "nombre": "BANGORA 2 RANDAS IVORY",
-    "material": "BANGORA",
-    "variante": "2 RANDAS IVORY",
-    "horma": "RODEO 2",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "BANGORA 2 RANDAS IVORY",
+      "en": "BANGORA 2 BANDS IVORY"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "2 RANDAS IVORY",
+      "en": "2 BANDS IVORY"
+    },
+    "horma": {
+      "es": "RODEO 2",
+      "en": "RODEO 2"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W602-11.webp"
   },
   {
     "sku": "W0702BP-11",
-    "nombre": "BANGORA DOBLE RANDA TT CHOCO",
-    "material": "BANGORA",
-    "variante": "DOBLE RANDA TT CHOCO",
-    "horma": "RODEO 2",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "BANGORA DOBLE RANDA TT CHOCO",
+      "en": "BANGORA DOUBLE BAND TT CHOCOLATE"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "DOBLE RANDA TT CHOCO",
+      "en": "DOUBLE BAND TT CHOCOLATE"
+    },
+    "horma": {
+      "es": "RODEO 2",
+      "en": "RODEO 2"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W0702BP-11.webp"
   },
   {
     "sku": "W0702-11",
-    "nombre": "BANGORA DOBLE RANDA TT CHOCO",
-    "material": "BANGORA",
-    "variante": "DOBLE RANDA TT CHOCO",
-    "horma": "DOBLE S USA",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "BANGORA DOBLE RANDA TT CHOCO",
+      "en": "BANGORA DOUBLE BAND TT CHOCOLATE"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "DOBLE RANDA TT CHOCO",
+      "en": "DOUBLE BAND TT CHOCOLATE"
+    },
+    "horma": {
+      "es": "DOBLE S USA",
+      "en": "DOUBLE S USA"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W0702-11.webp"
   },
   {
     "sku": "W10C02-11",
-    "nombre": "BANGORA FINO - 6 X 5.5 X 6",
-    "material": "BANGORA",
-    "variante": "FINO - 6 X 5.5 X 6",
-    "horma": "RODEO 2",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "BANGORA FINO - 6 X 5.5 X 6",
+      "en": "BANGORA FINE - 6 X 5.5 X 6"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "FINO - 6 X 5.5 X 6",
+      "en": "FINE - 6 X 5.5 X 6"
+    },
+    "horma": {
+      "es": "RODEO 2",
+      "en": "RODEO 2"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W10C02-11.webp"
   },
   {
     "sku": "W10C02P-11",
-    "nombre": "BANGORA FINO - 6 X 5.5 X 6",
-    "material": "BANGORA",
-    "variante": "FINO - 6 X 5.5 X 6",
-    "horma": "RODEO 2",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "BANGORA FINO - 6 X 5.5 X 6",
+      "en": "BANGORA FINE - 6 X 5.5 X 6"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "FINO - 6 X 5.5 X 6",
+      "en": "FINE - 6 X 5.5 X 6"
+    },
+    "horma": {
+      "es": "RODEO 2",
+      "en": "RODEO 2"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W10C02P-11.webp"
   },
   {
     "sku": "W11AM02-11",
-    "nombre": "BANGORA IVORI CAFÉ SIN SOMBRA",
-    "material": "BANGORA",
-    "variante": "IVORI CAFÉ SIN SOMBRA",
-    "horma": "RODEO 2",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "BANGORA IVORI CAFÉ SIN SOMBRA",
+      "en": "BANGORA IVORY BROWN NO SHADOW"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "IVORI CAFÉ SIN SOMBRA",
+      "en": "IVORY BROWN NO SHADOW"
+    },
+    "horma": {
+      "es": "RODEO 2",
+      "en": "RODEO 2"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W11AM02-11.webp"
   },
   {
     "sku": "W1202-11",
-    "nombre": "BANGORA RANDA TT/SOMBRA",
-    "material": "BANGORA",
-    "variante": "RANDA TT/SOMBRA",
-    "horma": "RODEO 2",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "BANGORA RANDA TT/SOMBRA",
+      "en": "BANGORA TT BAND/SHADOW"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "RANDA TT/SOMBRA",
+      "en": "TT BAND/SHADOW"
+    },
+    "horma": {
+      "es": "RODEO 2",
+      "en": "RODEO 2"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W1202-11.webp"
   },
   {
     "sku": "W13BM02-11",
-    "nombre": "BANGORA RANDA TT TAN",
-    "material": "BANGORA",
-    "variante": "RANDA TT TAN",
-    "horma": "RODEO 2",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "BANGORA RANDA TT TAN",
+      "en": "BANGORA TT BAND TAN"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "RANDA TT TAN",
+      "en": "TT BAND TAN"
+    },
+    "horma": {
+      "es": "RODEO 2",
+      "en": "RODEO 2"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W13BM02-11.webp"
   },
   {
     "sku": "W14A02-11",
-    "nombre": "BANGORA TAN FLECHAS",
-    "material": "BANGORA",
-    "variante": "TAN FLECHAS",
-    "horma": "RODEO 2",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "BANGORA TAN FLECHAS",
+      "en": "BANGORA TAN ARROWS"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "TAN FLECHAS",
+      "en": "TAN ARROWS"
+    },
+    "horma": {
+      "es": "RODEO 2",
+      "en": "RODEO 2"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W14A02-11.webp"
   },
   {
     "sku": "W3402-11",
-    "nombre": "CHINO GLAZ G3 2X2",
-    "material": "CHINO",
-    "variante": "GLAZ G3 2X2",
-    "horma": "RODEO 2",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "CHINO GLAZ G3 2X2",
+      "en": "CHINO GLAZ G3 2X2"
+    },
+    "material": {
+      "es": "CHINO",
+      "en": "CHINO"
+    },
+    "variante": {
+      "es": "GLAZ G3 2X2",
+      "en": "GLAZ G3 2X2"
+    },
+    "horma": {
+      "es": "RODEO 2",
+      "en": "RODEO 2"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W3402-11.webp"
   },
   {
     "sku": "W6902-11",
-    "nombre": "BANGORA TAN FLECHAS",
-    "material": "BANGORA",
-    "variante": "TAN FLECHAS",
-    "horma": "RODEO 2",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "BANGORA TAN FLECHAS",
+      "en": "BANGORA TAN ARROWS"
+    },
+    "material": {
+      "es": "BANGORA",
+      "en": "BANGORA"
+    },
+    "variante": {
+      "es": "TAN FLECHAS",
+      "en": "TAN ARROWS"
+    },
+    "horma": {
+      "es": "RODEO 2",
+      "en": "RODEO 2"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W6902-11.webp"
   },
   {
     "sku": "W131A02-11",
-    "nombre": "SISOL 3X3",
-    "material": "SISOL",
-    "variante": "3X3",
-    "horma": "RODEO 2",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "SISOL 3X3",
+      "en": "SISOL 3X3"
+    },
+    "material": {
+      "es": "SISOL",
+      "en": "SISOL"
+    },
+    "variante": {
+      "es": "3X3",
+      "en": "3X3"
+    },
+    "horma": {
+      "es": "RODEO 2",
+      "en": "RODEO 2"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W131A02-11.webp"
   },
   {
     "sku": "W23617-11",
-    "nombre": "CHINO GLAZ 5BU 2X2",
-    "material": "CHINO",
-    "variante": "GLAZ 5BU 2X2",
-    "horma": "OPEN",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "CHINO GLAZ 5BU 2X2",
+      "en": "CHINO GLAZ 5BU 2X2"
+    },
+    "material": {
+      "es": "CHINO",
+      "en": "CHINO"
+    },
+    "variante": {
+      "es": "GLAZ 5BU 2X2",
+      "en": "GLAZ 5BU 2X2"
+    },
+    "horma": {
+      "es": "OPEN",
+      "en": "OPEN"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W23617-11.webp"
   },
   {
     "sku": "W9817-11",
-    "nombre": "JAP G5 2X2 RANDA ROMBOS",
-    "material": "JAP",
-    "variante": "G5 2X2 RANDA ROMBOS",
-    "horma": "OPEN",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "JAP G5 2X2 RANDA ROMBOS",
+      "en": "JAP G5 2X2 DIAMOND BAND"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 RANDA ROMBOS",
+      "en": "G5 2X2 DIAMOND BAND"
+    },
+    "horma": {
+      "es": "OPEN",
+      "en": "OPEN"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W9817-11.webp"
   },
   {
     "sku": "W16317-11",
-    "nombre": "JAP G5 2X2 RANDA X",
-    "material": "JAP",
-    "variante": "G5 2X2 RANDA X",
-    "horma": "OPEN",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "JAP G5 2X2 RANDA X",
+      "en": "JAP G5 2X2 X BAND"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 RANDA X",
+      "en": "G5 2X2 X BAND"
+    },
+    "horma": {
+      "es": "OPEN",
+      "en": "OPEN"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W16317-11.webp"
   },
   {
     "sku": "W10917-11",
-    "nombre": "LANA CHOCO 210 GR",
-    "material": "LANA",
-    "variante": "CHOCO 210 GR",
-    "horma": "OPEN",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "LANA CHOCO 210 GR",
+      "en": "WOOL CHOCOLATE 210 GR"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "CHOCO 210 GR",
+      "en": "CHOCOLATE 210 GR"
+    },
+    "horma": {
+      "es": "OPEN",
+      "en": "OPEN"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W10917-11.webp"
   },
   {
     "sku": "W11217-11-N",
-    "nombre": "LANA NEGRA 210 GR",
-    "material": "LANA",
-    "variante": "NEGRA 210 GR",
-    "horma": "OPEN",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "LANA NEGRA 210 GR",
+      "en": "WOOL BLACK 210 GR"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "NEGRA 210 GR",
+      "en": "BLACK 210 GR"
+    },
+    "horma": {
+      "es": "OPEN",
+      "en": "OPEN"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W11217-11-N.webp"
   },
   {
     "sku": "W11217-11-S",
-    "nombre": "LANA SILVER BELLY 210 GR",
-    "material": "LANA",
-    "variante": "SILVER BELLY 210 GR",
-    "horma": "OPEN",
-    "falda": "11CM",
-    "categoria": "11CM",
+    "nombre": {
+      "es": "LANA SILVER BELLY 210 GR",
+      "en": "WOOL SILVER BELLY 210 GR"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "SILVER BELLY 210 GR",
+      "en": "SILVER BELLY 210 GR"
+    },
+    "horma": {
+      "es": "OPEN",
+      "en": "OPEN"
+    },
+    "falda": {
+      "es": "11CM",
+      "en": "11CM"
+    },
+    "categoria": {
+      "es": "11CM",
+      "en": "11CM"
+    },
     "imagen": "/Catalogo/W11217-11-S.webp"
   },
   {
     "sku": "W5959-9",
-    "nombre": "JAP G5 2X2 6X5X6",
-    "material": "JAP",
-    "variante": "G5 2X2 6X5X6",
-    "horma": "FANTASMA",
-    "falda": "9CM",
-    "categoria": "9CM",
+    "nombre": {
+      "es": "JAP G5 2X2 6X5X6",
+      "en": "JAP G5 2X2 6X5X6"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G5 2X2 6X5X6",
+      "en": "G5 2X2 6X5X6"
+    },
+    "horma": {
+      "es": "FANTASMA",
+      "en": "GHOST"
+    },
+    "falda": {
+      "es": "9CM",
+      "en": "9CM"
+    },
+    "categoria": {
+      "es": "9CM",
+      "en": "9CM"
+    },
     "imagen": "/Catalogo/W5959-9.webp"
   },
   {
     "sku": "W11259-9",
-    "nombre": "LANA NEGRA 210GR",
-    "material": "LANA",
-    "variante": "NEGRA 210GR",
-    "horma": "FANTASMA",
-    "falda": "9CM",
-    "categoria": "9CM",
+    "nombre": {
+      "es": "LANA NEGRA 210GR",
+      "en": "WOOL BLACK 210GR"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "NEGRA 210GR",
+      "en": "BLACK 210GR"
+    },
+    "horma": {
+      "es": "FANTASMA",
+      "en": "GHOST"
+    },
+    "falda": {
+      "es": "9CM",
+      "en": "9CM"
+    },
+    "categoria": {
+      "es": "9CM",
+      "en": "9CM"
+    },
     "imagen": "/Catalogo/W11259-9.webp"
   },
   {
     "sku": "W4912-9",
-    "nombre": "JAP G3 2X2",
-    "material": "JAP",
-    "variante": "G3 2X2",
-    "horma": "LARRY",
-    "falda": "9CM",
-    "categoria": "9CM",
+    "nombre": {
+      "es": "JAP G3 2X2",
+      "en": "JAP G3 2X2"
+    },
+    "material": {
+      "es": "JAP",
+      "en": "JAP"
+    },
+    "variante": {
+      "es": "G3 2X2",
+      "en": "G3 2X2"
+    },
+    "horma": {
+      "es": "LARRY",
+      "en": "LARRY"
+    },
+    "falda": {
+      "es": "9CM",
+      "en": "9CM"
+    },
+    "categoria": {
+      "es": "9CM",
+      "en": "9CM"
+    },
     "imagen": "/Catalogo/W4912-9.webp"
   },
   {
     "sku": "WK113B45-9",
-    "nombre": "LANA NEGRA 160GR CRUSHABLE NIÑO",
-    "material": "LANA",
-    "variante": "NEGRA 160GR CRUSHABLE NIÑO",
-    "horma": "MAVERICK KIDS",
-    "falda": "9CM",
-    "categoria": "9CM",
+    "nombre": {
+      "es": "LANA NEGRA 160GR CRUSHABLE NIÑO",
+      "en": "WOOL BLACK 160GR CRUSHABLE KIDS"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "NEGRA 160GR CRUSHABLE NIÑO",
+      "en": "BLACK 160GR CRUSHABLE KIDS"
+    },
+    "horma": {
+      "es": "MAVERICK KIDS",
+      "en": "MAVERICK KIDS"
+    },
+    "falda": {
+      "es": "9CM",
+      "en": "9CM"
+    },
+    "categoria": {
+      "es": "9CM",
+      "en": "9CM"
+    },
     "imagen": "/Catalogo/WK113B45-9.webp"
   },
   {
     "sku": "WK113C45-9",
-    "nombre": "LANA CHOCO 210GR",
-    "material": "LANA",
-    "variante": "CHOCO 210GR",
-    "horma": "MAVERICK KIDS",
-    "falda": "9CM",
-    "categoria": "9CM",
+    "nombre": {
+      "es": "LANA CHOCO 210GR",
+      "en": "WOOL CHOCOLATE 210GR"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "CHOCO 210GR",
+      "en": "CHOCOLATE 210GR"
+    },
+    "horma": {
+      "es": "MAVERICK KIDS",
+      "en": "MAVERICK KIDS"
+    },
+    "falda": {
+      "es": "9CM",
+      "en": "9CM"
+    },
+    "categoria": {
+      "es": "9CM",
+      "en": "9CM"
+    },
     "imagen": "/Catalogo/WK113C45-9.webp"
   },
   {
     "sku": "WK113B43-9",
-    "nombre": "LANA NEGRA 160GR CRUSHABLE NIÑO",
-    "material": "LANA",
-    "variante": "NEGRA 160GR CRUSHABLE NIÑO",
-    "horma": "MAVERICK KIDS",
-    "falda": "9CM",
-    "categoria": "9CM",
+    "nombre": {
+      "es": "LANA NEGRA 160GR CRUSHABLE NIÑO",
+      "en": "WOOL BLACK 160GR CRUSHABLE KIDS"
+    },
+    "material": {
+      "es": "LANA",
+      "en": "WOOL"
+    },
+    "variante": {
+      "es": "NEGRA 160GR CRUSHABLE NIÑO",
+      "en": "BLACK 160GR CRUSHABLE KIDS"
+    },
+    "horma": {
+      "es": "MAVERICK KIDS",
+      "en": "MAVERICK KIDS"
+    },
+    "falda": {
+      "es": "9CM",
+      "en": "9CM"
+    },
+    "categoria": {
+      "es": "9CM",
+      "en": "9CM"
+    },
     "imagen": "/Catalogo/WK113B43-9.webp"
   }
 ]

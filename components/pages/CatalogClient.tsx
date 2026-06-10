@@ -2,21 +2,28 @@
 
 import React, { useState, useMemo } from 'react';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from '@/lib/navigation';
 import productos from '@/public/Catalogo/productos.json';
 
 type Producto = {
   sku: string;
-  nombre: string;
-  material: string;
-  variante: string;
-  horma: string;
-  falda: string;
-  categoria: string;
+  nombre: { es: string; en: string };
+  material: { es: string; en: string };
+  variante: { es: string; en: string };
+  horma: { es: string; en: string };
+  falda: { es: string; en: string };
+  categoria: { es: string; en: string };
   imagen?: string;
 };
+
+function getCategoryLabel(product: Producto, locale: string): string {
+  if (product.material.es.toUpperCase() === 'LANA') {
+    return locale === 'es' ? 'LANA' : 'WOOL';
+  }
+  return product.categoria[locale as 'es' | 'en'] || product.categoria.es;
+}
 
 function ImageSkeleton() {
   return (
@@ -36,11 +43,16 @@ function ImageSkeleton() {
   );
 }
 
-function ProductCard({ product, priority }: { product: Producto; priority?: boolean }) {
+function ProductCard({ product, priority, categoryLabel, locale }: { product: Producto; priority?: boolean; categoryLabel: string; locale: string }) {
   const t = useTranslations('catalog');
   const [imgError, setImgError] = useState(false);
   const [loaded, setLoaded] = useState(false);
   const imagen = product.imagen || `/Catalogo/${product.sku}.webp`;
+  const nombre = product.nombre[locale as 'es' | 'en'] || product.nombre.es;
+  const material = product.material[locale as 'es' | 'en'] || product.material.es;
+  const variante = product.variante[locale as 'es' | 'en'] || product.variante.es;
+  const horma = product.horma[locale as 'es' | 'en'] || product.horma.es;
+  const falda = product.falda[locale as 'es' | 'en'] || product.falda.es;
 
   return (
     <motion.div
@@ -58,7 +70,7 @@ function ProductCard({ product, priority }: { product: Producto; priority?: bool
             {!loaded && <ImageSkeleton />}
             <Image
               src={imagen}
-              alt={`${product.nombre} — ${product.sku}`}
+              alt={`${nombre} — ${product.sku}`}
               fill
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
               loading={priority ? 'eager' : 'lazy'}
@@ -90,20 +102,20 @@ function ProductCard({ product, priority }: { product: Producto; priority?: bool
 
       <div className="p-5 md:p-8">
         <span className="block font-display font-bold text-[9px] tracking-[0.18em] uppercase text-[var(--text-muted)] mb-1.5">
-          {product.categoria}
+          {categoryLabel}
         </span>
         <h3 className="font-display font-bold text-lg tracking-[0.06em] text-[var(--text-primary)] mb-2 uppercase leading-tight">
-          {product.nombre}
+          {nombre}
         </h3>
         <div className="flex flex-col gap-1 mb-6">
           <p className="font-body text-[12px] text-[var(--text-secondary)]">
-            {product.material} — {product.variante}
+            {material} — {variante}
           </p>
           <p className="font-body text-[12px] text-[var(--text-secondary)]">
-            {product.horma}
+            {horma}
           </p>
           <p className="font-body text-[12px] text-[var(--text-secondary)]">
-            {product.falda}
+            {falda}
           </p>
           <p className="font-body text-[10px] tracking-[0.08em] text-[var(--text-muted)] uppercase mt-1">
             SKU: {product.sku}
@@ -123,25 +135,28 @@ function ProductCard({ product, priority }: { product: Producto; priority?: bool
 
 export default function CatalogClient() {
   const t = useTranslations('catalog');
+  const locale = useLocale();
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState('');
 
   const categorias = useMemo(() => {
     const cats = new Set<string>();
-    (productos as Producto[]).forEach((p) => cats.add(p.categoria));
+    (productos as Producto[]).forEach((p) => cats.add(getCategoryLabel(p, locale)));
     const sorted = Array.from(cats).sort((a, b) => {
+      if (a === 'LANA' || a === 'WOOL') return 1;
+      if (b === 'LANA' || b === 'WOOL') return -1;
       const numA = parseFloat(a.replace('CM', ''));
       const numB = parseFloat(b.replace('CM', ''));
       return numA - numB;
     });
     return ['all', ...sorted];
-  }, []);
+  }, [locale]);
 
   const filteredProducts = useMemo(() => {
     let result = productos as Producto[];
 
     if (activeCategory !== 'all') {
-      result = result.filter((p) => p.categoria === activeCategory);
+      result = result.filter((p) => getCategoryLabel(p, locale) === activeCategory);
     }
 
     const q = searchQuery.trim().toUpperCase();
@@ -149,11 +164,16 @@ export default function CatalogClient() {
       result = result.filter(
         (p) =>
           p.sku.toUpperCase().includes(q) ||
-          p.nombre.toUpperCase().includes(q) ||
-          p.material.toUpperCase().includes(q) ||
-          p.variante.toUpperCase().includes(q) ||
-          p.horma.toUpperCase().includes(q) ||
-          p.falda.toUpperCase().includes(q)
+          p.nombre.es.toUpperCase().includes(q) ||
+          p.nombre.en.toUpperCase().includes(q) ||
+          p.material.es.toUpperCase().includes(q) ||
+          p.material.en.toUpperCase().includes(q) ||
+          p.variante.es.toUpperCase().includes(q) ||
+          p.variante.en.toUpperCase().includes(q) ||
+          p.horma.es.toUpperCase().includes(q) ||
+          p.horma.en.toUpperCase().includes(q) ||
+          p.falda.es.toUpperCase().includes(q) ||
+          p.falda.en.toUpperCase().includes(q)
       );
     }
 
@@ -276,6 +296,8 @@ export default function CatalogClient() {
                   key={product.sku}
                   product={product}
                   priority={index < 8}
+                  categoryLabel={getCategoryLabel(product, locale)}
+                  locale={locale}
                 />
               ))}
             </AnimatePresence>

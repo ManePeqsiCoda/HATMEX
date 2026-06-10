@@ -22,20 +22,48 @@ const barlow = Barlow({
   display: 'swap',
 });
 
-export const metadata: Metadata = {
-  title: {
-    default: 'HATMEX — Premium Private-Label Headwear',
-    template: '%s | HATMEX',
-  },
-  description:
-    'HATMEX is a premium private-label headwear manufacturer based in Mexico, crafting world-class hats and caps for global brands.',
-  keywords: ['headwear', 'caps', 'hats', 'private label', 'manufacturer', 'Mexico'],
-  openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    siteName: 'HATMEX',
-  },
-};
+export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
+  const isEs = locale === 'es';
+  return {
+    title: {
+      default: isEs ? 'HATMEX | Sombreros Artesanales de Calidad — Wrangler 2026' : 'HATMEX | Premium Handmade Hats — Wrangler 2026 Collection',
+      template: '%s | HATMEX',
+    },
+    description: isEs
+      ? 'Descubre la colección oficial de sombreros Wrangler 2026. Lana, bangora, jap y rabbit/beaver felt. Fabricación artesanal mexicana con envío a México y Estados Unidos.'
+      : 'Shop the official Wrangler 2026 hat collection. Wool, bangora, jap and rabbit/beaver felt. Mexican artisan manufacturing with shipping to the US and Mexico.',
+    keywords: isEs
+      ? ['sombreros vaqueros', 'sombreros Wrangler', 'sombreros mexicanos', 'fedora', 'cowboy hats', 'hatmex']
+      : ['cowboy hats', 'Wrangler hats', 'handmade hats', 'fedora', 'western hats', 'hatmex'],
+    openGraph: {
+      type: 'website',
+      locale: isEs ? 'es_MX' : 'en_US',
+      siteName: 'HATMEX',
+      url: `https://hatmex.com.mx/${locale}/`,
+      images: [{ url: '/images/og-image.webp', width: 1200, height: 630, alt: 'HATMEX' }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: isEs ? 'HATMEX | Sombreros Artesanales de Calidad' : 'HATMEX | Premium Handmade Hats',
+      description: isEs
+        ? 'Colección oficial Wrangler 2026. Sombreros artesanales mexicanos.'
+        : 'Official Wrangler 2026 Collection. Mexican handmade hats.',
+      images: ['/images/og-image.webp'],
+    },
+    alternates: {
+      canonical: `https://hatmex.com.mx/${locale}/`,
+      languages: {
+        'es-MX': 'https://hatmex.com.mx/es/',
+        'en-US': 'https://hatmex.com.mx/en/',
+        'x-default': 'https://hatmex.com.mx/es/',
+      },
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
 
 interface LocaleLayoutProps {
   children: React.ReactNode;

@@ -11,9 +11,9 @@ import {
   EMAILJS_PUBLIC_KEY 
 } from '@/lib/config';
 
-// TODO: Actualizar con número real cuando esté disponible
-// const PHONE_NUMBER = "+1 (555) 123-4567";
-const PHONE_DISPLAY = '+1 (___) ___-____';
+const PHONE_MEXICO = '+52 1 477 109 6896';
+const PHONE_USA_DISPLAY = '+1 (830) 415 9920';
+const PHONE_USA_RAW = '+18304159920';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -70,10 +70,20 @@ export default function Footer() {
                 <Mail strokeWidth={1.5} className="w-4 h-4 text-[var(--accent)] group-hover:scale-110 transition-transform" />
                 {t('email')}
               </a>
-              <div className="inline-flex items-center gap-3 text-[#F5F0E8]/50 font-display text-sm tracking-widest uppercase">
-                <Phone strokeWidth={1.5} className="w-4 h-4 text-[var(--accent)]" />
-                <span>{PHONE_DISPLAY}</span>
-              </div>
+              <a 
+                href={`tel:${PHONE_MEXICO.replace(/\s/g, '')}`}
+                className="inline-flex items-center gap-3 text-[#F5F0E8]/80 hover:text-[var(--accent)] transition-colors font-display text-sm tracking-widest uppercase group"
+              >
+                <Phone strokeWidth={1.5} className="w-4 h-4 text-[var(--accent)] group-hover:scale-110 transition-transform" />
+                <span>{t('phone_mexico_label')}: {PHONE_MEXICO}</span>
+              </a>
+              <a
+                href={`tel:${PHONE_USA_RAW}`}
+                className="inline-flex items-center gap-3 text-[#F5F0E8]/80 hover:text-[var(--accent)] transition-colors font-display text-sm tracking-widest uppercase group"
+              >
+                <Phone strokeWidth={1.5} className="w-4 h-4 text-[var(--accent)] group-hover:scale-110 transition-transform" />
+                <span>{t('phone_usa_label')}: {PHONE_USA_DISPLAY}</span>
+              </a>
             </div>
 
             <form onSubmit={handleNewsletter} className="flex flex-col gap-4 max-w-sm">

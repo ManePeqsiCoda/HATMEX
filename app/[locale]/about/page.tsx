@@ -12,9 +12,20 @@ type Props = {
 };
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
+  const isEs = locale === 'es';
   return {
-    title: locale === 'es' ? 'Sobre Nosotros | 10 Años de Experiencia | HATMEX' : 'About Us | 10 Years of Experience | HATMEX',
-    description: locale === 'es' ? 'Conozca nuestros 10 años de experiencia en la manufactura de headwear premium de marca privada.' : 'Learn about our 10 years of experience in premium private label headwear manufacturing.',
+    title: isEs ? 'Sobre Nosotros | 10 Años de Experiencia | Hatmex' : 'About Us | 10 Years of Experience | Hatmex',
+    description: isEs
+      ? 'Conozca nuestros 10 años de experiencia en la manufactura de sombreros artesanales premium. Distribuidores oficiales Wrangler 2026.'
+      : 'Learn about our 10 years of experience in premium handmade hat manufacturing. Official Wrangler 2026 distributors.',
+    openGraph: {
+      title: isEs ? 'Sobre Nosotros | 10 Años de Experiencia | Hatmex' : 'About Us | 10 Years of Experience | Hatmex',
+      description: isEs
+        ? 'Conozca nuestros 10 años de experiencia en la manufactura de sombreros artesanales premium. Distribuidores oficiales Wrangler 2026.'
+        : 'Learn about our 10 years of experience in premium handmade hat manufacturing. Official Wrangler 2026 distributors.',
+      url: `https://hatmex.com.mx/${locale}/about/`,
+      images: [{ url: '/images/og-image.webp', width: 1200, height: 630, alt: 'HATMEX About' }],
+    },
   };
 }
 
@@ -34,14 +45,14 @@ export default function AboutPage({ params: { locale } }: Props) {
       <MissionVision 
         title={t('mission_title')}
         body={t('mission_body')}
-        image="/images/hero/mission.png"
+        image="/images/our-story-fedora.webp"
         className="bg-[var(--bg-secondary)]"
       />
       
       <MissionVision 
         title={t('vision_title')}
         body={t('vision_body')}
-        image="/images/hero/vision.png"
+        image="/images/our-story-vaquero.webp"
         reverse
         tilt={2.5}
         className="bg-[var(--bg-primary)]"

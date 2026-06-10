@@ -155,6 +155,9 @@
     "info": {
       "email_label": "Email Us",
       "address_label": "Visit Us",
+      "phone_label": "Phone",
+      "phone_mexico_label": "Mexico",
+      "phone_usa_label": "United States",
       "social_label": "Follow Us"
     }
   },
@@ -163,11 +166,46 @@
     "pages_label": "Pages",
     "email": "hatmexco@gmail.com",
     "copyright": "2025 Copyright HATMEX · hatmexco@gmail.com",
+    "phone_mexico_label": "Mexico",
+    "phone_usa_label": "United States",
     "newsletter": {
       "placeholder": "Your email address",
       "success": "Subscription successful",
       "error": "Subscription failed"
     }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": {
+      "0": {
+        "question": "What materials do you use for your hats?",
+        "answer": "We work with premium wool, bangora, woven palm, rabbit and beaver felt, and jap. Each material is selected based on the client's style, intended use, and budget."
+      },
+      "1": {
+        "question": "What is the minimum order quantity (MOQ)?",
+        "answer": "MOQs vary by model and material. For wool and bangora we typically handle batches from 72 units. Contact us for a custom quote tailored to your project."
+      },
+      "2": {
+        "question": "Can I customize my own brand and labels?",
+        "answer": "Yes. We specialize in private label manufacturing. We include woven labels, leather patches, custom boxes, and all the branding your brand requires."
+      },
+      "3": {
+        "question": "Do you ship to the United States?",
+        "answer": "Yes. We have a distribution warehouse in Eagle Pass, Texas, which allows us to deliver efficiently with complete customs documentation to clients in the United States."
+      },
+      "4": {
+        "question": "How long does production take?",
+        "answer": "From sample approval, standard production takes between 30 and 45 business days depending on volume and design complexity."
+      },
+      "5": {
+        "question": "Where are you located?",
+        "answer": "Our manufacturing plant is in León, Guanajuato, Mexico — the world capital of footwear and leather goods — with commercial offices in Eagle Pass, Texas."
+      }
+    }
+  },
+  "geo": {
+    "heading": "Hat Manufacturer in Mexico for the United States",
+    "body": "Hatmex is a Mexican private-label hat manufacturer with over 10 years of experience exporting to the United States. We craft handmade caps and hats in wool, bangora, rabbit felt, palm, and jap from our facility in León, Guanajuato, with fast delivery through our warehouse in Eagle Pass, Texas."
   },
   "validation": {
     "name": "Name is required (min 2 characters)",

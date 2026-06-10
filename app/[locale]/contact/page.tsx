@@ -9,9 +9,20 @@ type Props = {
 };
 
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
+  const isEs = locale === 'es';
   return {
-    title: locale === 'es' ? 'Contacto | Obtener Cotización | HATMEX' : 'Contact | Get a Quote | HATMEX',
-    description: locale === 'es' ? 'Póngase en contacto con el equipo de HATMEX para consultas sobre manufactura de headwear de marca privada. USMCA y manufactura nearshore.' : 'Get in touch with the HATMEX team for private label headwear manufacturing inquiries. USMCA and nearshore manufacturing.',
+    title: isEs ? 'Contacto | Cotización de Sombreros | Hatmex' : 'Contact | Hat Quote Request | Hatmex',
+    description: isEs
+      ? 'Contáctanos en México (+52 1 477 109 6896) o USA. Sombreros Wrangler 2026 al por mayor para marcas privadas.'
+      : 'Contact us in Mexico (+52 1 477 109 6896) or USA. Wrangler 2026 wholesale hats for private labels.',
+    openGraph: {
+      title: isEs ? 'Contacto | Cotización de Sombreros | Hatmex' : 'Contact | Hat Quote Request | Hatmex',
+      description: isEs
+        ? 'Contáctanos en México (+52 1 477 109 6896) o USA. Sombreros Wrangler 2026 al por mayor para marcas privadas.'
+        : 'Contact us in Mexico (+52 1 477 109 6896) or USA. Wrangler 2026 wholesale hats for private labels.',
+      url: `https://hatmex.com.mx/${locale}/contact/`,
+      images: [{ url: '/images/og-image.webp', width: 1200, height: 630, alt: 'HATMEX Contact' }],
+    },
   };
 }
 
