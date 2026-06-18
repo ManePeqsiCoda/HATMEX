@@ -3,7 +3,6 @@
 import React, { useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
-import emailjs from '@emailjs/browser';
 
 type FormStatus = 'idle' | 'loading' | 'success' | 'error';
 type FormErrors = {
@@ -46,15 +45,31 @@ export default function ContactForm() {
     setStatus('loading');
 
     try {
-      await emailjs.sendForm(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || 'service_hatmex',
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || 'template_hatmex',
-        formRef.current!,
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || 'public_key'
-      );
-      setStatus('success');
+      const formData = new FormData(formRef.current!);
+      const payload = {
+        name: formData.get('from_name'),
+        email: formData.get('from_email'),
+        phone: formData.get('phone'),
+        subject: formData.get('subject'),
+        message: formData.get('message'),
+      };
+
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+
+      const data = await response.json().catch(() => ({}));
+
+      if (!response.ok) {
+        console.error('Contact API error:', data);
+        setStatus('error');
+      } else {
+        setStatus('success');
+      }
     } catch (err) {
-      console.error('EmailJS Error:', err);
+      console.error('Contact form submission error:', err);
       setStatus('error');
     }
   };
