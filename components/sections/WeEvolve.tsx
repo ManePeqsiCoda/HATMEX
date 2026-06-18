@@ -18,7 +18,7 @@ export default function WeEvolve() {
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="relative aspect-[4/5] w-full"
+          className="relative aspect-[4/5] w-full order-1"
         >
             <Image
               src="/images/client/1.jpeg"
@@ -34,7 +34,7 @@ export default function WeEvolve() {
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="flex flex-col gap-8"
+          className="flex flex-col gap-8 order-2"
         >
           <h2 className="section-title text-[var(--text-primary)]">
             {t('evolve_heading')}

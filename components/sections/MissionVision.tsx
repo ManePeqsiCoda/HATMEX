@@ -25,7 +25,7 @@ export default function MissionVision({ title, body, image, reverse, tilt = -2, 
           {/* Text Content */}
           <motion.div 
             className={cn(
-              "md:col-span-7 flex flex-col gap-6",
+              "order-2 md:col-span-7 flex flex-col gap-6",
               reverse ? "md:order-2" : "md:order-1"
             )}
             initial={{ x: reverse ? 50 : -50, opacity: 0 }}
@@ -44,7 +44,7 @@ export default function MissionVision({ title, body, image, reverse, tilt = -2, 
           {/* Image (Polaroid) */}
           <motion.div 
             className={cn(
-              "md:col-span-5 flex justify-center",
+              "order-1 md:col-span-5 flex justify-center",
               reverse ? "md:order-1" : "md:order-2"
             )}
             initial={{ rotate: 0, scale: 0.9, opacity: 0 }}
