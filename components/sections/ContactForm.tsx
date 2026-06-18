@@ -9,6 +9,7 @@ type FormStatus = 'idle' | 'loading' | 'success' | 'error';
 type FormErrors = {
   name?: string;
   email?: string;
+  phone?: string;
   message?: string;
 };
 
@@ -23,10 +24,12 @@ export default function ContactForm() {
     const newErrors: FormErrors = {};
     const name = formData.get('from_name') as string;
     const email = formData.get('from_email') as string;
+    const phone = formData.get('phone') as string;
     const message = formData.get('message') as string;
 
     if (!name || name.length < 2) newErrors.name = tVal('name');
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) newErrors.email = tVal('email');
+    if (!phone || phone.replace(/\D/g, '').length < 7) newErrors.phone = tVal('phone');
     if (!message || message.length < 10) newErrors.message = tVal('message');
 
     setErrors(newErrors);
@@ -121,6 +124,20 @@ export default function ContactForm() {
             />
             {errors.email && <span className="text-[10px] text-[#B83232] uppercase tracking-[.14em] font-bold mt-1">{errors.email}</span>}
           </div>
+        </div>
+
+        {/* Phone */}
+        <div className="flex flex-col gap-2">
+          <label className="font-display text-[10px] font-bold tracking-[.14em] text-[var(--text-secondary)] uppercase">
+            {t('phone')}
+          </label>
+          <input
+            name="phone"
+            type="tel"
+            className={`bg-[var(--input-bg)] border ${errors.phone ? 'border-[#B83232]' : 'border-[var(--border)]'} p-4 text-[var(--text-primary)] font-body focus:border-[var(--accent)] outline-none transition-colors rounded-[2px] placeholder:text-[var(--text-muted)]`}
+            placeholder="+1 (555) 123-4567"
+          />
+          {errors.phone && <span className="text-[10px] text-[#B83232] uppercase tracking-[.14em] font-bold mt-1">{errors.phone}</span>}
         </div>
 
         {/* Subject */}

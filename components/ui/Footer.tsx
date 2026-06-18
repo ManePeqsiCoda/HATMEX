@@ -51,6 +51,11 @@ export default function Footer() {
           
           {/* Column 1: Info & Newsletter */}
           <div className="md:col-span-5 flex flex-col gap-8">
+            {/*
+              TODO: reemplazar el logo texto por una imagen/SVG de alta resolucion
+              cuando el cliente proporcione el archivo. Actualmente el logo es texto
+              (no hay imagen de logo en /public/images/).
+            */}
             <Link href="/" className="flex flex-col group w-fit">
               <span className="font-display font-black text-3xl tracking-[0.14em] uppercase text-[#F5F0E8] group-hover:text-[var(--accent)] transition-colors">
                 HATMEX

@@ -144,6 +144,7 @@
     "body": "Nuestro equipo de atención al cliente estará encantado de proporcionarle toda la información necesaria sobre nuestras capacidades de fabricación.",
     "name": "Nombre",
     "email": "Correo Electrónico",
+    "phone": "Teléfono",
     "subject": "Asunto",
     "message": "Mensaje",
     "send": "Enviar Mensaje",
@@ -210,6 +211,7 @@
   "validation": {
     "name": "El nombre es obligatorio (mín. 2 caracteres)",
     "email": "Por favor ingrese un correo válido",
+    "phone": "El teléfono es obligatorio (mín. 7 dígitos)",
     "message": "El mensaje es obligatorio (mín. 10 caracteres)"
   }
 }
