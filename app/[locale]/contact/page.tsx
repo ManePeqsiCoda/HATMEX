@@ -3,6 +3,7 @@ import { useTranslations } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import ContactInfo from '@/components/sections/ContactInfo';
 import ContactForm from '@/components/sections/ContactForm';
+import { PHONE_MEXICO_DISPLAY } from '@/lib/config';
 
 type Props = {
   params: { locale: string };
@@ -13,13 +14,13 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
   return {
     title: isEs ? 'Contacto | Cotización de Sombreros | Hatmex' : 'Contact | Hat Quote Request | Hatmex',
     description: isEs
-      ? 'Contáctanos en México (+52 1 477 109 6896) o USA. Sombreros Wrangler 2026 al por mayor para marcas privadas.'
-      : 'Contact us in Mexico (+52 1 477 109 6896) or USA. Wrangler 2026 wholesale hats for private labels.',
+      ? `Contáctanos en México (${PHONE_MEXICO_DISPLAY}) o USA. Sombreros Wrangler 2026 al por mayor para marcas privadas.`
+      : `Contact us in Mexico (${PHONE_MEXICO_DISPLAY}) or USA. Wrangler 2026 wholesale hats for private labels.`,
     openGraph: {
       title: isEs ? 'Contacto | Cotización de Sombreros | Hatmex' : 'Contact | Hat Quote Request | Hatmex',
       description: isEs
-        ? 'Contáctanos en México (+52 1 477 109 6896) o USA. Sombreros Wrangler 2026 al por mayor para marcas privadas.'
-        : 'Contact us in Mexico (+52 1 477 109 6896) or USA. Wrangler 2026 wholesale hats for private labels.',
+        ? `Contáctanos en México (${PHONE_MEXICO_DISPLAY}) o USA. Sombreros Wrangler 2026 al por mayor para marcas privadas.`
+        : `Contact us in Mexico (${PHONE_MEXICO_DISPLAY}) or USA. Wrangler 2026 wholesale hats for private labels.`,
       url: `https://hatmex.com.mx/${locale}/contact/`,
       images: [{ url: '/images/og-image.webp', width: 1200, height: 630, alt: 'HATMEX Contact' }],
     },

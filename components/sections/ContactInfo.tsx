@@ -3,7 +3,7 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
-import { CONTACT_EMAIL } from '@/lib/config';
+import { CONTACT_EMAIL, PHONE_MEXICO_DISPLAY, PHONE_MEXICO_RAW, PHONE_USA_DISPLAY, PHONE_USA_RAW } from '@/lib/config';
 
 export default function ContactInfo() {
   const t = useTranslations('contact');
@@ -57,11 +57,11 @@ export default function ContactInfo() {
           </span>
           <div className="flex flex-col gap-2">
             <div className="flex items-center justify-between gap-3">
-              <a href="tel:+5214771096896" className="font-body text-xl text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors inline-flex items-center gap-3">
-                <span className="text-[var(--accent)]">📞</span> {t('info.phone_mexico_label')}: +52 1 477 109 6896
+              <a href={`tel:${PHONE_MEXICO_RAW}`} className="font-body text-xl text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors inline-flex items-center gap-3">
+                <span className="text-[var(--accent)]">📞</span> {t('info.phone_mexico_label')}: {PHONE_MEXICO_DISPLAY}
               </a>
               <a
-                href="https://wa.me/5214771096896"
+                href={`https://wa.me/${PHONE_MEXICO_RAW.replace('+', '')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#25D366] text-white px-3 py-1.5 rounded-full font-body text-sm font-semibold hover:bg-[#128C7E] transition-colors shrink-0"
@@ -74,8 +74,8 @@ export default function ContactInfo() {
               </a>
             </div>
             <div className="flex items-center justify-between gap-3">
-              <a href="tel:+18304159920" className="font-body text-xl text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors inline-flex items-center gap-3">
-                <span className="text-[var(--accent)]">📞</span> {t('info.phone_usa_label')}: +1 (830) 415 9920
+              <a href={`tel:${PHONE_USA_RAW}`} className="font-body text-xl text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors inline-flex items-center gap-3">
+                <span className="text-[var(--accent)]">📞</span> {t('info.phone_usa_label')}: {PHONE_USA_DISPLAY}
               </a>
               <a
                 href="https://wa.me/18304159920"

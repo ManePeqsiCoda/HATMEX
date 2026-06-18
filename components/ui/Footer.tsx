@@ -8,12 +8,12 @@ import emailjs from '@emailjs/browser';
 import { 
   EMAILJS_SERVICE_ID, 
   EMAILJS_TEMPLATE_ID, 
-  EMAILJS_PUBLIC_KEY 
+  EMAILJS_PUBLIC_KEY,
+  PHONE_MEXICO_DISPLAY,
+  PHONE_MEXICO_RAW,
+  PHONE_USA_DISPLAY,
+  PHONE_USA_RAW,
 } from '@/lib/config';
-
-const PHONE_MEXICO = '+52 1 477 109 6896';
-const PHONE_USA_DISPLAY = '+1 (830) 415 9920';
-const PHONE_USA_RAW = '+18304159920';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -76,11 +76,11 @@ export default function Footer() {
                 {t('email')}
               </a>
               <a 
-                href={`tel:${PHONE_MEXICO.replace(/\s/g, '')}`}
+                href={`tel:${PHONE_MEXICO_RAW}`}
                 className="inline-flex items-center gap-3 text-[#F5F0E8]/80 hover:text-[var(--accent)] transition-colors font-display text-sm tracking-widest uppercase group"
               >
                 <Phone strokeWidth={1.5} className="w-4 h-4 text-[var(--accent)] group-hover:scale-110 transition-transform" />
-                <span>{t('phone_mexico_label')}: {PHONE_MEXICO}</span>
+                <span>{t('phone_mexico_label')}: {PHONE_MEXICO_DISPLAY}</span>
               </a>
               <a
                 href={`tel:${PHONE_USA_RAW}`}
