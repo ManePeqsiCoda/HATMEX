@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hatmex.com.mx/sitemap.xml
