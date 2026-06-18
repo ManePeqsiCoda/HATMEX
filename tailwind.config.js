@@ -16,6 +16,7 @@ const config = {
         'text-muted':'var(--text-secondary)',
         accent:      'var(--accent)',
         'accent-hover': 'var(--accent-hover)',
+        'brand-brown': 'var(--brand-brown)',
         border:      'var(--border)',
         'border-light': 'var(--border-light)',
         'nav-bg':    'var(--nav-bg)',

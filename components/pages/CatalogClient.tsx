@@ -76,10 +76,10 @@ function ProductCard({ product, priority, categoryLabel, locale }: { product: Pr
               loading={priority ? 'eager' : 'lazy'}
               priority={priority}
               decoding="async"
-              className={`object-cover transition-transform duration-500 group-hover:scale-[1.04] ${
+              className={`object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04] ${
                 loaded ? 'opacity-100' : 'opacity-0'
               }`}
-              style={{ transition: 'opacity 0.3s ease, transform 0.5s ease' }}
+              style={{ transition: 'opacity 0.3s ease, transform 0.7s ease-out' }}
               onLoad={() => setLoaded(true)}
               onError={() => { setImgError(true); setLoaded(true); }}
             />
@@ -121,9 +121,14 @@ function ProductCard({ product, priority, categoryLabel, locale }: { product: Pr
             SKU: {product.sku}
           </p>
         </div>
+        {/*
+          Nota: el cliente se refirió a un botón "Añadir al carrito".
+          En la versión actual el CTA de la card es "Request Sample" (card_cta).
+          Se aplica el hover café institucional a este botón hasta confirmar copy.
+        */}
         <Link
           href="/contact"
-          className="inline-flex items-center font-display font-bold text-[12px] tracking-[0.12em] uppercase text-[var(--accent)] hover:text-[var(--accent-hover)] group/link"
+          className="inline-flex items-center font-display font-bold text-[12px] tracking-[0.12em] uppercase bg-[var(--accent)] text-[var(--text-primary)] px-5 py-2.5 rounded-[2px] hover:bg-[var(--brand-brown)] hover:text-white transition-colors duration-200 group/link"
         >
           {t('card_cta')}
           <span className="ml-1 transition-transform group-hover/link:translate-x-1">→</span>

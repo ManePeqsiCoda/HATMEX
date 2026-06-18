@@ -19,6 +19,9 @@
   --accent-hover:  #B8962F;
   --accent-light:  rgba(201,168,76,0.12);
 
+  /* Brand brown — confirmar hex exacto con cliente */
+  --brand-brown:   #8B5A2B;
+
   /* Borders */
   --border:        #D6D0C4;
   --border-light:  #E2DDD5;
