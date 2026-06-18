@@ -35,7 +35,7 @@ export default function Hero() {
   const headingLines = t('hero_heading').split('\n');
 
   return (
-    <section className="relative h-[100dvh] w-full overflow-hidden bg-black">
+    <section className="relative min-h-[420px] sm:min-h-[520px] md:min-h-[640px] lg:min-h-screen w-full overflow-hidden bg-black">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
@@ -43,15 +43,17 @@ export default function Hero() {
           alt="HATMEX Hero"
           fill
           priority
+          sizes="100vw"
           className="object-cover"
+          style={{ objectPosition: 'center 30%' }}
         />
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-[rgba(26,46,28,0.40)]" />
+        {/* Overlay: gradiente oscuro sutil que crea contraste para el texto sin ocultar el sombrero */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#1A2E1C]/70 via-[#1A2E1C]/20 to-transparent" />
       </div>
 
       {/* Content */}
       <motion.div 
-        className="absolute bottom-[10%] left-[8%] z-10 flex flex-col gap-6 max-w-4xl"
+        className="absolute bottom-[12%] left-4 right-4 sm:left-[8%] sm:right-auto z-10 flex flex-col gap-5 sm:gap-6 max-w-4xl"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
@@ -64,7 +66,8 @@ export default function Hero() {
         </motion.span>
 
         <motion.h1 
-          className="flex flex-col hero-title text-white"
+          className="flex flex-col font-display uppercase font-black tracking-[0.16em] leading-[1.1] text-white text-[42px] sm:text-[56px] md:text-[72px] lg:text-[88px]"
+          style={{ textShadow: '0 2px 16px rgba(0,0,0,0.5)' }}
         >
           {headingLines.map((line, idx) => (
             <span key={idx} className="overflow-hidden">

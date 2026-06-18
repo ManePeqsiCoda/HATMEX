@@ -32,6 +32,18 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Bloquear scroll del body cuando el menú móvil está abierto
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [mobileMenuOpen]);
+
   const toggleLocale = () => {
     const nextLocale = currentLocale === 'en' ? 'es' : 'en';
     
@@ -43,15 +55,16 @@ export default function Navbar() {
   };
 
   return (
-    <nav
-      className={cn(
-        'fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-in-out px-6 md:px-12',
-        isScrolled 
-          ? 'bg-[var(--nav-bg)] border-b border-[var(--border)] backdrop-blur-[8px] py-4' 
-          : 'bg-transparent border-transparent py-6'
-      )}
-    >
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
+    <>
+      <nav
+        className={cn(
+          'fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-in-out px-6 md:px-12',
+          isScrolled 
+            ? 'bg-[var(--nav-bg)] border-b border-[var(--border)] backdrop-blur-[8px] py-4' 
+            : 'bg-transparent border-transparent py-6'
+        )}
+      >
+        <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Left: Branding */}
         <Link href="/" className="flex flex-col group gap-0">
           <span className={cn(
@@ -131,8 +144,9 @@ export default function Navbar() {
           <span className={cn("w-6 h-[1px] transition-colors", isScrolled ? "bg-[var(--text-primary)]" : "bg-white")} />
         </button>
       </div>
+      </nav>
 
-      {/* Mobile Menu Overlay */}
+      {/* Mobile Menu Overlay — fuera del <nav> para evitar stacking context del backdrop-blur */}
       <AnimatePresence>
         {mobileMenuOpen && (
           <motion.div
@@ -140,11 +154,12 @@ export default function Navbar() {
             animate={{ x: 0 }}
             exit={{ x: '100%' }}
             transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-            className="fixed inset-0 z-[60] bg-[var(--bg-primary)] flex flex-col items-center justify-center p-8"
+            className="fixed inset-0 z-[9999] h-[100dvh] w-screen bg-[var(--bg-primary)] isolate flex flex-col items-center justify-center p-8"
           >
             <button
               className="absolute top-8 right-8 p-4 text-[var(--text-primary)]"
               onClick={() => setMobileMenuOpen(false)}
+              aria-label="Close menu"
             >
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1">
                 <path d="M18 6L6 18M6 6l12 12" />
@@ -183,6 +198,6 @@ export default function Navbar() {
           </motion.div>
         )}
       </AnimatePresence>
-    </nav>
+    </>
   );
 }
