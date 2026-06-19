@@ -4,7 +4,7 @@ const withNextIntl = createNextIntlPlugin('./i18n.ts');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  trailingSlash: true,
+  trailingSlash: false,
   images: {
     formats: ['image/avif', 'image/webp'],
   },
