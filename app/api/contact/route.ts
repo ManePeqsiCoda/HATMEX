@@ -132,11 +132,20 @@ export async function POST(request: NextRequest) {
                 </tr>
               </table>
 
-              <!-- REPLY BUTTON -->
+              <!-- REPLY BUTTONS -->
               <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:28px;">
                 <tr>
                   <td align="center">
-                    <a href="mailto:${cleanEmail}" style="display:inline-block;background-color:#1a1a1a;color:#ffffff;font-size:12px;letter-spacing:2px;text-transform:uppercase;padding:14px 32px;text-decoration:none;border-radius:2px;font-weight:600;">Reply to this lead</a>
+                    <table cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td style="padding-right:12px;">
+                          <a href="mailto:${cleanEmail}" style="display:inline-block;background-color:#1a1a1a;color:#ffffff;font-size:11px;letter-spacing:2px;text-transform:uppercase;padding:13px 24px;text-decoration:none;border-radius:2px;font-weight:600;">Reply by email</a>
+                        </td>
+                        <td>
+                          <a href="https://wa.me/${cleanPhone.replace(/\D/g, '')}" style="display:inline-block;background-color:#25D366;color:#ffffff;font-size:11px;letter-spacing:2px;text-transform:uppercase;padding:13px 24px;text-decoration:none;border-radius:2px;font-weight:600;">Reply via WhatsApp</a>
+                        </td>
+                      </tr>
+                    </table>
                   </td>
                 </tr>
               </table>
