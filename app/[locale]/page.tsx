@@ -19,15 +19,15 @@ type Props = {
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   const isEs = locale === 'es';
   return {
-    title: isEs ? 'Hatmex | Sombreros Artesanales de Calidad — Wrangler 2026' : 'Hatmex | Premium Handmade Hats — Wrangler 2026 Collection',
+    title: 'Hatmex | Crafting Private Label Headwear',
     description: isEs
-      ? 'Descubre la colección oficial de sombreros Wrangler 2026. Lana, bangora, jap y rabbit/beaver felt. Fabricación artesanal mexicana con envío a México y Estados Unidos.'
-      : 'Shop the official Wrangler 2026 hat collection. Wool, bangora, jap and rabbit/beaver felt. Mexican artisan manufacturing with shipping to the US and Mexico.',
+      ? 'Fabricamos gorras y sombreros private label con identidad de marca. Diseño, desarrollo y producción de headwear artesanal para empresas, marcas y colecciones propias.'
+      : 'We craft private label caps and hats with brand identity. Design, development and artisan production of headwear for companies, brands and own collections.',
     openGraph: {
-      title: isEs ? 'Hatmex | Sombreros Artesanales de Calidad — Wrangler 2026' : 'Hatmex | Premium Handmade Hats — Wrangler 2026 Collection',
+      title: 'Hatmex | Crafting Private Label Headwear',
       description: isEs
-        ? 'Descubre la colección oficial de sombreros Wrangler 2026. Lana, bangora, jap y rabbit/beaver felt. Fabricación artesanal mexicana con envío a México y Estados Unidos.'
-        : 'Shop the official Wrangler 2026 hat collection. Wool, bangora, jap and rabbit/beaver felt. Mexican artisan manufacturing with shipping to the US and Mexico.',
+        ? 'Fabricamos gorras y sombreros private label con identidad de marca. Diseño, desarrollo y producción de headwear artesanal para empresas, marcas y colecciones propias.'
+        : 'We craft private label caps and hats with brand identity. Design, development and artisan production of headwear for companies, brands and own collections.',
       url: `https://hatmex.com.mx/${locale}/`,
       images: [{ url: '/images/og-image.webp', width: 1200, height: 630, alt: 'HATMEX' }],
     },

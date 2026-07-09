@@ -26,15 +26,15 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   const isEs = locale === 'es';
   return {
     title: {
-      default: isEs ? 'HATMEX | Sombreros Artesanales de Calidad — Wrangler 2026' : 'HATMEX | Premium Handmade Hats — Wrangler 2026 Collection',
+      default: 'HATMEX | Crafting Private Label Headwear',
       template: '%s | HATMEX',
     },
     description: isEs
-      ? 'Descubre la colección oficial de sombreros Wrangler 2026. Lana, bangora, jap y rabbit/beaver felt. Fabricación artesanal mexicana con envío a México y Estados Unidos.'
-      : 'Shop the official Wrangler 2026 hat collection. Wool, bangora, jap and rabbit/beaver felt. Mexican artisan manufacturing with shipping to the US and Mexico.',
+      ? 'Fabricamos gorras y sombreros private label con identidad de marca. Diseño, desarrollo y producción de headwear artesanal para empresas, marcas y colecciones propias.'
+      : 'We craft private label caps and hats with brand identity. Design, development and artisan production of headwear for companies, brands and own collections.',
     keywords: isEs
-      ? ['sombreros vaqueros', 'sombreros Wrangler', 'sombreros mexicanos', 'fedora', 'cowboy hats', 'hatmex']
-      : ['cowboy hats', 'Wrangler hats', 'handmade hats', 'fedora', 'western hats', 'hatmex'],
+      ? ['private label headwear', 'sombreros private label', 'gorras personalizadas', 'headwear mexicano', 'manufactura de gorras', 'hatmex']
+      : ['private label headwear', 'custom caps', 'custom hats', 'headwear manufacturing', 'private label hats', 'hatmex'],
     openGraph: {
       type: 'website',
       locale: isEs ? 'es_MX' : 'en_US',
@@ -44,10 +44,10 @@ export async function generateMetadata({ params: { locale } }: { params: { local
     },
     twitter: {
       card: 'summary_large_image',
-      title: isEs ? 'HATMEX | Sombreros Artesanales de Calidad' : 'HATMEX | Premium Handmade Hats',
+      title: 'HATMEX | Crafting Private Label Headwear',
       description: isEs
-        ? 'Colección oficial Wrangler 2026. Sombreros artesanales mexicanos.'
-        : 'Official Wrangler 2026 Collection. Mexican handmade hats.',
+        ? 'Fabricamos gorras y sombreros private label con identidad de marca.'
+        : 'We craft private label caps and hats with brand identity.',
       images: ['/images/og-image.webp'],
     },
     alternates: {
